@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake App Store</title>
+    <style>
+        body {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 1px;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .app {
+            width: 300px;
+            margin: 20px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+            column-gap: 2;
+        }
+
+        img {
+            max-width: 70px;
+            border-radius: 5px;
+        }
+         button {
+            width: 100%;
+            border-radius: 5px;
+            background-color: #007bff;
+            color:aliceblue;
+            padding:6px;
+            border:none;
+            margin-top: 3px;
+        }
+        p{
+            color: rgb(89, 89, 89);
+        }
+        
+    </style>
+</head>
+<body>
+
+    <header>
+        <h5>BresoDEV App Store</h5>
+    </header>
+
+    <section id="card">
+        
+<h2 id="Carregando"></h2>
+        
+      
+
+    </section>
+
+ 
+    <script>
+
+        var apks = [];
+
+        ler();
+
+
+        function ler() {
+            let arquivo = 'apks.json';
+            fetch(arquivo)
+                .then(response => response.json())
+                .then(data => {
+                    apks = data;
+                    console.log(apks)
+                })
+                .catch(error => {
+                    console.error('Erro ao carregar o arquivo JSON ' + arquivo, error);
+                });
+
+
+        }
+
+        var i = 0;
+        var loop = setInterval(() => {
+            if (document.getElementById('Carregando')) {
+                document.getElementById('Carregando').innerHTML = 'Carregando APKs (' + i + '%)';
+                if (i >= 98)
+                    clearInterval(loop);
+                else
+                    i += 2;
+            }
+        }, 60);
+
+        setTimeout(() => {
+            //Carregando
+            document.getElementById('Carregando').remove();
+
+            apks.forEach(element => {
+
+                if (element.nome !== '') {
+                    
+                    if (element.link !== "") {
+                        document.getElementById('card').innerHTML += '' +
+                        '<div class="app">' +
+                        '<img src="' + element.icone + '" >' +
+                        '<h3>' + element.nome + '</h3>' +
+                        '<p>' + element.descricao + ' </p>' +
+                        '<a href="' + element.apk + '"><button>Download APK</button></a> '+
+                        '<a href="' + element.link + '"><button>Acessar</button></a> '+
+                        '</div>';
+                    }
+                    else
+                    {
+                        document.getElementById('card').innerHTML += '' +
+                        '<div class="app">' +
+                        '<img src="' + element.icone + '" >' +
+                        '<h3>' + element.nome + '</h3>' +
+                        '<p>' + element.descricao + ' </p>' +
+                        '<a href="' + element.apk + '"><button>Download APK</button></a> '+
+                        '</div>';
+                    }
+
+ 
+
+                }
+
+            });
+        }, 4000);
+    </script>
+
+</body>
+
+</html>
