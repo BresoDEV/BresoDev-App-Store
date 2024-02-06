@@ -49,6 +49,10 @@
 </body>
 
 <script>
+
+    var s1 =0;
+    var s2 =0;
+
     function ler() {
         let arquivo = 'apks.json';
         fetch(arquivo)
@@ -76,6 +80,7 @@
         apks.forEach(element => {
 
             if (element.nome === nomeApk) {
+                s2 = s1;
                 document.body.innerHTML = '' +
                     '<table>' +
                     '<tr>' +
@@ -90,7 +95,7 @@
                     '<th style="font-weight:normal;font-size:13px">Downloads</th></tr><tr>' +
                     '<th>0.9MB</th>' +
                     '<th>' + element.downloads + '</th>' +
-                    '</tr></table><hr><br><a href="' + element.apk + '"><button>Download</button></a><br><hr>' +
+                    '</tr></table><hr><br><a href="' + element.apk + '"><button id="dh">Download</button></a><br><hr>' +
                     '<table style="padding:4px"><tr><td><b><h3>Sobre:</h3></b></td></tr><tr>' +
                     '<td>' + element.descricao + '</td>' +
                     '</tr></table><br><div class="ct"><center>' +
@@ -100,7 +105,7 @@
                     '</div></center><br><br>' +
                     '';
             }
-
+s1++;
         });
 
         //outros apks
@@ -147,7 +152,17 @@
 
     }, 1000);
 
-
+setTimeout(() => {
+    document.getElementById('dh').addEventListener('click',()=>{
+        apks[s2].downloads = (parseInt(apks[s2].downloads) +1).toString();
+        
+        const jd = JSON.stringify(apks);
+        fetch('attDownloads.php',{
+            method:'POST',
+            body:jd
+        })
+    });
+}, 2000);
 
 
 
