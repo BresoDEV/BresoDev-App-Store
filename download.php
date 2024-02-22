@@ -1,13 +1,6 @@
 <?php
 include('api.php');
-if (isset($_GET['download'])) {
-    $meuini = new INI('apks.ini');
-    $d = $meuini->Ler($_GET['apk'], 'downloads');
-    $d++;
-    $meuini->Modificar($_GET['apk'], 'downloads', $d);
-    sleep(2000);
-    echo '<script>window.location.href = "'.$meuini->Ler($_GET['apk'], 'apk').'";</script>';
-}
+
 ?>
 
 <!DOCTYPE html>
@@ -60,6 +53,19 @@ if (isset($_GET['download'])) {
 </style>
 
 <body>
+<?php
+ 
+if (isset($_GET['download'])) 
+{
+    $meuini = new INI('apks.ini');
+    $d = $meuini->Ler($_GET['apk'], 'downloads');
+    $d++;
+    $meuini->Modificar($_GET['apk'], 'downloads', $d);
+    sleep(2);
+    echo '<script>window.location.href = "'.$meuini->Ler($_GET['apk'], 'apk').'";</script>';
+}
+?>
+
     <?php
     $meuini = new INI('apks.ini');
 
@@ -85,7 +91,7 @@ if (isset($_GET['download'])) {
 <img src="' . $meuini->Ler($_GET['apk'], 'img2') . '">
 <img src="' . $meuini->Ler($_GET['apk'], 'img3') . '">
 </div></center><br><br> 
-;v
+
 ';
 
     $ultimo = 0;
