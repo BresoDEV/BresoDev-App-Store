@@ -82,7 +82,6 @@ include('api.php');
                         echo '<div class="app">
                         <img src="'.$meuini->Ler($i,'icone').'" >
                         <h3>'.$meuini->Ler($i,'nome').'</h3>
-                        <p>'.$meuini->Ler($i,'descricao').' </p>
                         <a href="download.php?apk='.$i.'"><button>Download APK</button></a>
                         <a href="'.$meuini->Ler($i,'link').'"><button>Acessar</button></a>
                         </div>';
@@ -91,7 +90,6 @@ include('api.php');
                         echo '<div class="app">
                     <img src="'.$meuini->Ler($i,'icone').'" >
                     <h3>'.$meuini->Ler($i,'nome').'</h3>
-                    <p>'.$meuini->Ler($i,'descricao').' </p>
                     <a href="'.$meuini->Ler($i,'link').'"><button>Acessar</button></a>
                     </div>';
                     }
@@ -101,7 +99,6 @@ include('api.php');
                     echo '<div class="app">
                     <img src="'.$meuini->Ler($i,'icone').'" >
                     <h3>'.$meuini->Ler($i,'nome').'</h3>
-                    <p>'.$meuini->Ler($i,'descricao').' </p>
                     <a href="download.php?apk='.$i.'"><button>Download APK</button></a>
                     </div>';
                 }
