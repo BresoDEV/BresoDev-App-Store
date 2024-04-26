@@ -70,7 +70,7 @@ var apks = [
         'Aplicativo de conversas/chat entre usuarios',
         'Transforme suas conversas em uma experiência envolvente e eficiente com o SpeakUp Chat. Este aplicativo de mensagens permite que você se conecte com amigos, familiares e colegas de forma rápida e fácil. Com recursos intuitivos e uma interface amigável, o SpeakUp Chat oferece uma plataforma segura e confiável para trocar mensagens, compartilhar mídia e manter-se conectado onde quer que você esteja. Experimente hoje mesmo o SpeakUp Chat e eleve suas conversas a um novo nível.',
         'apks/SpeakUp.apk',
-        ''
+        'http://speakup.free.nf/'
     ],
     [
         'PasteBoot',
@@ -78,7 +78,7 @@ var apks = [
         'Aplicativo semelhante ao Pastebin, para hospedar e compartilhar textos diversos',
         'Simplifique o compartilhamento e a hospedagem de textos e códigos com o PasteBoot. Este aplicativo intuitivo oferece uma plataforma fácil de usar para compartilhar e armazenar uma variedade de conteúdos, desde trechos de código até notas e textos informativos. PasteBoot torna o processo de compartilhar informações mais conveniente do que nunca. Experimente agora e descubra como o PasteBoot pode simplificar suas necessidades de compartilhamento de conteúdo.',
         'apks/PasteBoot.apk',
-        ''
+        'http://bresodev.free.nf/Pasteboot/'
     ],
     [
         'E-mail Anonimo',
@@ -278,7 +278,7 @@ var apks = [
         'Fórum destinado a alunos de Ciências da Computação da escola Cruzeiro do Sul',
         'Participe do Fórum CDSEAD, uma plataforma dedicada aos alunos de Ciências da Computação da escola Cruzeiro do Sul. Aqui, os estudantes podem discutir sobre diversos temas relacionados à área, compartilhar conhecimento, fazer perguntas, e interagir uns com os outros. Desde dúvidas sobre programação até debates sobre tendências tecnológicas, o Fórum CDSEAD é o lugar ideal para trocar ideias e aprender junto com a comunidade acadêmica. Junte-se a nós e aproveite ao máximo sua jornada na área de Ciências da Computação!',
         'apks/Forum CDS.apk',
-        ''
+        'http://bresodev.free.nf/CDSEAD/'
     ],
     [
         'Invalid File Creator',
@@ -286,7 +286,7 @@ var apks = [
         'Cria arquivos inválidos e corrompidos de qualquer tamanho ou extensão, para ser usado como desculpa quando não fez um trabalho e precisa entregar',
         'O Invalid File Creator é uma ferramenta útil para criar arquivos inválidos e corrompidos de qualquer tamanho ou extensão. Esta aplicação é ideal para situações em que você precisa entregar um trabalho, mas não o fez, e precisa de uma desculpa plausível. Basta selecionar o tamanho e a extensão do arquivo que você precisa, e o Invalid File Creator criará um arquivo corrompido que não pode ser aberto ou lido corretamente. Com isso, você terá uma desculpa convincente para atrasos ou trabalhos não entregues. Nunca mais se preocupe com prazos apertados com o Invalid File Creator.',
         'apks/Invalid File Creator.apk',
-        ''
+        'http://bresodev.free.nf/InvalidFileCreator'
     ],
     [
         'Mini Font Converter',
