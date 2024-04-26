@@ -21,7 +21,7 @@
 
 
     apks.forEach(element => {
-        if (element[0] !== '') {
+        if (element[0] !== '' && element[0] !== '3' && element[4] !== '') {
             document.getElementById('ct').innerHTML += `
         <div class="app" onclick="window.location.href='download.html?apk=${element[0]}'">
             <img src="${element[1]}" alt="">

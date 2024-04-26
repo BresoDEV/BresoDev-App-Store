@@ -317,7 +317,7 @@ var apks = [
         'img/fmb.png',
         'Sistema que você pode criar seu email personalizado com qualquer nome e domínio',
         'Crie seu próprio endereço de e-mail personalizado com o My Fake MailBox. Escolha um nome único e um domínio customizado, como "seunome@seudomínio.com". Envie e-mails para outros usuários do aplicativo e compartilhe mensagens e arquivos. Lembre-se, não é possível enviar e-mails reais, apenas dentro da rede do aplicativo. Experimente agora e comece a se comunicar de forma divertida e personalizada!',
-        '',
+         '',
         ''
     ],
     [
@@ -325,7 +325,7 @@ var apks = [
         'img/confess.jpg',
         '',
         '',
-        'apks/.apk',
+         '',
         ''
     ],
     [
