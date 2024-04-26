@@ -170,7 +170,7 @@ var apks = [
     ],
     [
         'Javascript Obfuscator',
-        '',
+        'img/Javascript Obfuscator.jpg',
         'Obfuscador de codigo Javascript',
         'Proteja seu código Javascript contra engenharia reversa e mantenha sua lógica segura com o Javascript Obfuscator. Este poderoso obfuscador transforma seu código Javascript em uma forma obscura e ilegível, tornando extremamente difícil para qualquer pessoa entender ou modificar seu código original. Com técnicas avançadas de ofuscação, como renomeação de variáveis, ofuscação de strings e minificação, o Javascript Obfuscator oferece uma camada adicional de segurança para seu código. Garanta a segurança e a confidencialidade de suas aplicações web com o Javascript Obfuscator.',
         'apks/Javascript Obfuscator.apk',
@@ -186,7 +186,7 @@ var apks = [
     ],
     [
         'Text Encriptor',
-        '',
+        'img/Text Encriptor.jpg',
         'Encriptador e decriptador de textos',
         'Proteja seus textos confidenciais com o Text Encriptor. Este aplicativo poderoso oferece ferramentas para encriptar e decriptar mensagens de forma rápida e segura. Utilizando algoritmos avançados de criptografia, o Text Encriptor transforma seu texto em uma forma ilegível, protegendo suas informações contra olhares curiosos. Além disso, o aplicativo também oferece a capacidade de decriptar mensagens encriptadas, permitindo que você acesse facilmente seus textos originais quando necessário. Com o Text Encriptor, você pode ter tranquilidade sabendo que suas comunicações estão protegidas contra interceptações não autorizadas. Experimente agora e mantenha suas mensagens confidenciais seguras com o Text Encriptor.',
         'apks/Text Encriptor.apk',
@@ -242,7 +242,7 @@ var apks = [
     ],
     [
         'Unicode Finder',
-        '',
+        'img/Unicode Finder.jpg',
         'Localize codigos de fontes unicode',
         'Descubra os códigos Unicode de caracteres específicos e obtenha o código HTML correspondente com o Unicode Finder. Este aplicativo útil permite que você insira texto contendo caracteres Unicode, como aqueles usados em fontes personalizadas, e exiba o código fonte correspondente. Você poderá ver o valor Unicode de cada caractere e copiar o código HTML correspondente para uso em suas páginas da web. Com o Unicode Finder, você pode simplificar o processo de incorporação de caracteres Unicode em seus projetos, garantindo uma experiência de design consistente e personalizada. Experimente agora e aproveite ao máximo o vasto mundo de caracteres Unicode com o Unicode Finder.',
         'apks/Unicode Finder.apk',
@@ -250,9 +250,9 @@ var apks = [
     ],
     [
         'BackTracks',
-        '',
-        '',
-        '',
+        'img/BackTracks.jpg',
+        'Aplicativo com um acervo de músicas de rock sem faixas de guitarra, para que guitarrista possam tocar junto com a música.',
+        'Libere o guitarrista dentro de você com o BackTracks. Este aplicativo oferece um acervo de músicas de rock sem faixas de guitarra, permitindo que você toque junto com as músicas sem a interferência da guitarra original. Com uma coleção cuidadosamente selecionada de músicas estabelecidas por você, o BackTracks é a ferramenta perfeita para praticar, improvisar e se divertir com suas músicas favoritas. Seja você um iniciante ou um guitarrista experiente, o BackTracks irá inspirar sua criatividade e elevar suas habilidades musicais. Experimente agora e leve suas performances de guitarra para o próximo nível com o BackTracks.',
         'apks/BackTracks.apk',
         ''
     ],
@@ -260,63 +260,63 @@ var apks = [
         'Lembretes',
         'img/lembretes.png',
         'Aplicativo para adicionar lembretes',
-        '',
+        'Mantenha-se organizado com o aplicativo Lembretes. Este aplicativo permite que você adicione facilmente listas de lembretes ou tarefas para que você nunca mais esqueça um compromisso importante. Com uma interface simples e intuitiva, você pode criar lembretes, atribuir prioridades e marcar tarefas como concluídas conforme necessário. Os lembretes não possuem data de expiração, portanto, precisam ser excluídos manualmente quando concluídos. Mantenha-se organizado e produtivo com o Lembretes.',
         'apks/Lembretes.apk',
         ''
     ],
     [
         'Breaking Bad',
         'img/bbad.jpeg',
-        '',
-        '',
+        'Jogo baseado na série de tv',
+        'Entre no submundo do crime de Albuquerque com Breaking Bad: O Jogo. Assuma o papel de um traficante de drogas e construa seu império enquanto toma decisões difíceis que moldam o curso da história. Enfrente rivais, interaja com personagens icônicos da série e explore locais memoráveis enquanto você luta pelo controle do território. Prepare-se para uma experiência emocionante e cheia de adrenalina neste jogo baseado na série de TV aclamada pela crítica.',
         'apks/Breaking Bad.apk',
         ''
     ],
     [
         'Forum CDS',
         'img/ead.jpeg',
-        '',
-        '',
+        'Fórum destinado a alunos de Ciências da Computação da escola Cruzeiro do Sul',
+        'Participe do Fórum CDSEAD, uma plataforma dedicada aos alunos de Ciências da Computação da escola Cruzeiro do Sul. Aqui, os estudantes podem discutir sobre diversos temas relacionados à área, compartilhar conhecimento, fazer perguntas, e interagir uns com os outros. Desde dúvidas sobre programação até debates sobre tendências tecnológicas, o Fórum CDSEAD é o lugar ideal para trocar ideias e aprender junto com a comunidade acadêmica. Junte-se a nós e aproveite ao máximo sua jornada na área de Ciências da Computação!',
         'apks/Forum CDS.apk',
         ''
     ],
     [
         'Invalid File Creator',
         'img/Invalid File Creator.png',
-        '',
-        '',
+        'Cria arquivos inválidos e corrompidos de qualquer tamanho ou extensão, para ser usado como desculpa quando não fez um trabalho e precisa entregar',
+        'O Invalid File Creator é uma ferramenta útil para criar arquivos inválidos e corrompidos de qualquer tamanho ou extensão. Esta aplicação é ideal para situações em que você precisa entregar um trabalho, mas não o fez, e precisa de uma desculpa plausível. Basta selecionar o tamanho e a extensão do arquivo que você precisa, e o Invalid File Creator criará um arquivo corrompido que não pode ser aberto ou lido corretamente. Com isso, você terá uma desculpa convincente para atrasos ou trabalhos não entregues. Nunca mais se preocupe com prazos apertados com o Invalid File Creator.',
         'apks/Invalid File Creator.apk',
         ''
     ],
     [
         'Mini Font Converter',
-        '',
-        '',
-        '',
+        'img/Mini Font Converter.jpg',
+        'Converte frases em caracteres menores que a fonte normal',
+        'Transforme suas frases em caracteres menores que a fonte normal com o Mini Font Creator. Este aplicativo é ideal para criar texto em miniatura, perfeito para usar em redes sociais, mensagens de texto e muito mais. Basta digitar sua frase e o Mini Font Creator irá converter para uma versão menor, economizando espaço e adicionando um toque único ao seu texto. Experimente agora e dê um estilo único às suas mensagens com o Mini Font Creator.',
         'apks/Mini Font Converter.apk',
         ''
     ],
     [
         'Show do Milhão',
         'img/show.jpeg',
-        '',
-        '',
+        'Jogo semelhante ao programa, com perguntas e respostas',
+        'Teste seus conhecimentos com o Show do Milhão! Responda perguntas de múltipla escolha em diferentes categorias para ganhar prêmios virtuais. Use ajuda dos "universitários" ou elimine opções com o "50/50" para chegar mais longe. Divirta-se e aprenda com este emocionante jogo!',
         'apks/Show do Milhão.apk',
         ''
     ],
     [
         'WhiteJack',
         'img/wj.jpeg',
-        '',
-        '',
+        'Joguinho de cassino caça níquel, onde você pode jogar sem usar dinheiro real',
+        'Divirta-se com o WhiteJack, um jogo de cassino caça-níquel onde você pode jogar sem usar dinheiro real. Gire os rolos e teste sua sorte para conseguir combinações vencedoras. Experimente a emoção do cassino sem gastar dinheiro de verdade!',
         'apks/WhiteJack.apk',
         ''
     ],
     [
         'Fake MailBox',
         'img/fmb.png',
-        '',
-        '',
+        'Sistema que você pode criar seu email personalizado com qualquer nome e domínio',
+        'Crie seu próprio endereço de e-mail personalizado com o My Fake MailBox. Escolha um nome único e um domínio customizado, como "seunome@seudomínio.com". Envie e-mails para outros usuários do aplicativo e compartilhe mensagens e arquivos. Lembre-se, não é possível enviar e-mails reais, apenas dentro da rede do aplicativo. Experimente agora e comece a se comunicar de forma divertida e personalizada!',
         '',
         ''
     ],
