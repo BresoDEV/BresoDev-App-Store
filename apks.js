@@ -170,7 +170,7 @@ var apks = [
     ],
     [
         'Javascript Obfuscator',
-        'img/',
+        '',
         'Obfuscador de codigo Javascript',
         'Proteja seu código Javascript contra engenharia reversa e mantenha sua lógica segura com o Javascript Obfuscator. Este poderoso obfuscador transforma seu código Javascript em uma forma obscura e ilegível, tornando extremamente difícil para qualquer pessoa entender ou modificar seu código original. Com técnicas avançadas de ofuscação, como renomeação de variáveis, ofuscação de strings e minificação, o Javascript Obfuscator oferece uma camada adicional de segurança para seu código. Garanta a segurança e a confidencialidade de suas aplicações web com o Javascript Obfuscator.',
         'apks/Javascript Obfuscator.apk',
@@ -186,7 +186,7 @@ var apks = [
     ],
     [
         'Text Encriptor',
-        'img/',
+        '',
         'Encriptador e decriptador de textos',
         'Proteja seus textos confidenciais com o Text Encriptor. Este aplicativo poderoso oferece ferramentas para encriptar e decriptar mensagens de forma rápida e segura. Utilizando algoritmos avançados de criptografia, o Text Encriptor transforma seu texto em uma forma ilegível, protegendo suas informações contra olhares curiosos. Além disso, o aplicativo também oferece a capacidade de decriptar mensagens encriptadas, permitindo que você acesse facilmente seus textos originais quando necessário. Com o Text Encriptor, você pode ter tranquilidade sabendo que suas comunicações estão protegidas contra interceptações não autorizadas. Experimente agora e mantenha suas mensagens confidenciais seguras com o Text Encriptor.',
         'apks/Text Encriptor.apk',
@@ -242,7 +242,7 @@ var apks = [
     ],
     [
         'Unicode Finder',
-        'img/',
+        '',
         'Localize codigos de fontes unicode',
         'Descubra os códigos Unicode de caracteres específicos e obtenha o código HTML correspondente com o Unicode Finder. Este aplicativo útil permite que você insira texto contendo caracteres Unicode, como aqueles usados em fontes personalizadas, e exiba o código fonte correspondente. Você poderá ver o valor Unicode de cada caractere e copiar o código HTML correspondente para uso em suas páginas da web. Com o Unicode Finder, você pode simplificar o processo de incorporação de caracteres Unicode em seus projetos, garantindo uma experiência de design consistente e personalizada. Experimente agora e aproveite ao máximo o vasto mundo de caracteres Unicode com o Unicode Finder.',
         'apks/Unicode Finder.apk',
@@ -250,7 +250,7 @@ var apks = [
     ],
     [
         'BackTracks',
-        'img/',
+        '',
         '',
         '',
         'apks/BackTracks.apk',
@@ -290,7 +290,7 @@ var apks = [
     ],
     [
         'Mini Font Converter',
-        'img/',
+        '',
         '',
         '',
         'apks/Mini Font Converter.apk',
@@ -330,15 +330,7 @@ var apks = [
     ],
     [
         '',
-        'img/',
         '',
-        '',
-        'apks/.apk',
-        ''
-    ],
-    [
-        '',
-        'img/',
         '',
         '',
         'apks/.apk',
@@ -346,15 +338,7 @@ var apks = [
     ],
     [
         '',
-        'img/',
         '',
-        '',
-        'apks/.apk',
-        ''
-    ],
-    [
-        '',
-        'img/',
         '',
         '',
         'apks/.apk',
@@ -362,15 +346,7 @@ var apks = [
     ],
     [
         '',
-        'img/',
         '',
-        '',
-        'apks/.apk',
-        ''
-    ],
-    [
-        '',
-        'img/',
         '',
         '',
         'apks/.apk',
@@ -378,15 +354,7 @@ var apks = [
     ],
     [
         '',
-        'img/',
         '',
-        '',
-        'apks/.apk',
-        ''
-    ],
-    [
-        '',
-        'img/',
         '',
         '',
         'apks/.apk',
@@ -394,15 +362,7 @@ var apks = [
     ],
     [
         '',
-        'img/',
         '',
-        '',
-        'apks/.apk',
-        ''
-    ],
-    [
-        '',
-        'img/',
         '',
         '',
         'apks/.apk',
@@ -410,15 +370,7 @@ var apks = [
     ],
     [
         '',
-        'img/',
         '',
-        '',
-        'apks/.apk',
-        ''
-    ],
-    [
-        '',
-        'img/',
         '',
         '',
         'apks/.apk',
@@ -426,15 +378,7 @@ var apks = [
     ],
     [
         '',
-        'img/',
         '',
-        '',
-        'apks/.apk',
-        ''
-    ],
-    [
-        '',
-        'img/',
         '',
         '',
         'apks/.apk',
@@ -442,15 +386,7 @@ var apks = [
     ],
     [
         '',
-        'img/',
         '',
-        '',
-        'apks/.apk',
-        ''
-    ],
-    [
-        '',
-        'img/',
         '',
         '',
         'apks/.apk',
@@ -458,7 +394,7 @@ var apks = [
     ],
     [
         '',
-        'img/',
+        '',
         '',
         '',
         'apks/.apk',
@@ -466,7 +402,71 @@ var apks = [
     ],
     [
         '',
-        'img/',
+        '',
+        '',
+        '',
+        'apks/.apk',
+        ''
+    ],
+    [
+        '',
+        '',
+        '',
+        '',
+        'apks/.apk',
+        ''
+    ],
+    [
+        '',
+        '',
+        '',
+        '',
+        'apks/.apk',
+        ''
+    ],
+    [
+        '',
+        '',
+        '',
+        '',
+        'apks/.apk',
+        ''
+    ],
+    [
+        '',
+        '',
+        '',
+        '',
+        'apks/.apk',
+        ''
+    ],
+    [
+        '',
+        '',
+        '',
+        '',
+        'apks/.apk',
+        ''
+    ],
+    [
+        '',
+        '',
+        '',
+        '',
+        'apks/.apk',
+        ''
+    ],
+    [
+        '',
+        '',
+        '',
+        '',
+        'apks/.apk',
+        ''
+    ],
+    [
+        '',
+        '',
         '',
         '',
         'apks/.apk',

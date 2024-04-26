@@ -12,40 +12,115 @@
 
 
 <body>
-    <div class="ct">
-        <h2>lista</h2>
+    <div class="ct" id="ct">
 
 
-        <div class="app" onclick="window.location.href='download.html'">
-            <img src="" alt="">
+
+
+
+    </div>
+    <div class="rel" id="rel">
+
+    </div>
+</body>
+<script>
+    //obter Dados do GET
+    const qs = window.location.search;
+    const get = new URLSearchParams(qs);
+
+    if (get.get('apk')) {
+        apks.forEach(element => {
+            if (element[0] === get.get('apk')) {
+                if (element[5] !== '' && element[4] !== '') {
+                    document.getElementById('ct').innerHTML = `
+                <div class="app">
+            <img src="${element[1]}" alt="">
             <div class="app-info">
-                <h3>titulo</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
-                <a href="">ssssss</a>
-                <a href="">ssssss</a>
+                <h3>${element[0]}</h3>
+                <p>Tamanho: 0.9mb</p>
+                <a href="${element[4]}" download>Download</a>
+                <a href="${element[5]}">Acessar Site</a>
             </div>
         </div>
         <div class="desc">
-            <h3>desc</h3>
-            <p>kkkkkkkk</p>
+            <h3>Sobre:</h3>
+            <p>${element[3]}</p>
         </div>
+                `+ document.getElementById('ct').innerHTML;
+                }
+                else if (element[4] !== '') {
+                    document.getElementById('ct').innerHTML = `
+                <div class="app">
+            <img src="${element[1]}" alt="">
+            <div class="app-info">
+                <h3>${element[0]}</h3>
+                <p>Tamanho: 0.9mb</p>
+                <a href="${element[4]}" download>Download</a>
+            </div>
+        </div>
+        <div class="desc">
+            <h3>Sobre:</h3>
+            <p>${element[3]}</p>
+        </div>
+                `+ document.getElementById('ct').innerHTML;
+                }
+                else if (element[5] !== '') {
+                    document.getElementById('ct').innerHTML = `
+                <div class="app">
+            <img src="${element[1]}" alt="">
+            <div class="app-info">
+                <h3>${element[0]}</h3>
+                 
+                <a href="${element[5]}">Acessar Site</a>
+            </div>
+        </div>
+        <div class="desc">
+            <h3>Sobre:</h3>
+            <p>${element[3]}</p>
+        </div>
+                `+ document.getElementById('ct').innerHTML;
+                }
+            }
+        });
+    }
+    else {
+        window.location.href = 'index.html';
+    }
 
-        <h3>relacion</h3>
-        <div class="rel">
-            <div class="rel-app">
-                <img src="" alt="">
-                <p>kkkkkk</p>
+
+</script>
+
+<script>
+    //apps relacionados
+
+    var _1 = Math.floor(Math.random() * (apks.length / 4))
+    var _2 = _1 + 1
+    var _3 = _2 + 1
+    var arrays = [_1,_2,_3];
+
+    arrays.forEach(element => {
+       if(apks[element][1] !== '' && apks[element][0] !== '')
+       {
+        document.getElementById('rel').innerHTML += `
+        
+        <div class="rel-app">
+            <a href="download.html?apk=${apks[element][0]}" class="ab" style="background-color:transparent"> 
+                
+                <img src="${apks[element][1]}" alt="">
+                <p>${apks[element][0]}</p>
+                </a> 
             </div>
-            <div class="rel-app">
-                <img src="" alt="">
-                <p>kkkkkk</p>
-            </div>
-            <div class="rel-app">
-                <img src="" alt="">
-                <p>kkkkkk</p>
-            </div>
-        </div>
-    </div>
-</body>
+          
+        `;
+       }
+    });
+
+
+    
+
+
+
+
+</script>
 
 </html>
