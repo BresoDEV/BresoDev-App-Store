@@ -1,0 +1,17 @@
+def joaat(k: str) ->str:
+    h = 0
+    for c in k:
+        h += ord(c)
+        h &= 0xFFFFFFFF
+        h += (h << 10)
+        h &= 0xFFFFFFFF
+        h ^= (h >> 6)
+    h += (h << 3)
+    h &= 0xFFFFFFFF
+    h ^= (h >> 11)
+    h += (h << 15)
+    h &= 0xFFFFFFFF
+    return f"{hex(h)}"
+    #return f"{h & 0xFFFFFFFF:08x}"
+
+print(joaat('adder'))

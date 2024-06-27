@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breso AppStore</title>
+</head>
+
+<body>
+
+</body>
+<script src="apks.js"></script>
+
+<script>
+    var final = ''
+
+    apks.sort()
+    apks.forEach(element => {
+        if (element[0] !== '') {
+            //nome do apk   ${element[0]}
+            //desc          ${element[2]}
+            //apk           ${element[4]}
+            //site          ${element[5]}
+            //
+            //link [nome](url)
+            //nome do apk ###
+            // > inicio e fim > ou >> inicio
+            //listas * palavra
+            if (element[4] !== '') {
+                if (element[4] !== '' && element[5] !== '') {//tem apk e site
+                    
+                    final += `
+                    ### ${element[0]}<br>
+                    >> ${element[2]}<br>
+                    [Download do APK](${element[4]})<br>
+                    [Acessar Site](${element[5]})<br>
+                    <br><br>
+                    `;
+
+
+
+
+                }
+                else {//tem só apk
+                    
+                    final += `
+                    ### ${element[0]}<br>
+                    >> ${element[2]}<br>
+                    [Download do APK](${element[4]})<br>
+                    <br><br>
+                    `;
+
+
+
+                }
+            }
+            else if (element[5] !== '') {
+                if (element[4] !== '' && element[5] !== '') {//tem apk e site
+                    
+                    final += `
+                    ### ${element[0]}<br>
+                    >> ${element[2]}<br>
+                    [Download do APK](${element[4]})<br>
+                    [Acessar Site](${element[5]})<br>
+                    <br><br>
+                    `;
+
+
+
+                }
+                else {//tem só site
+                    
+                    final += `
+                    ### ${element[0]}<br>
+                    >> ${element[2]}<br>
+                    [Acessar Site](${element[5]})<br>
+                    <br><br>
+                    `;
+
+
+
+
+                }
+            }
+
+
+
+
+        }
+
+    });
+
+
+
+    document.body.innerHTML = final
+</script>
+
+</html>

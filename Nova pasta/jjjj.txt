@@ -1,0 +1,136 @@
+#include <windows.h>
+#include <iostream>
+using namespace std;
+// Identificadores dos controles
+#define IDC_BUTTON          101
+#define IDC_EDIT            102
+#define IDC_COMBOBOX        103
+#define IDC_TEXTAREA        104
+#define IDC_CHECKBOX        105
+#define IDC_RADIO1          106
+#define IDC_RADIO2          107
+#define IDC_PROGRESS        108
+#define IDC_CHECKBOX_STATUS 109
+#define IDC_INPUT_TEXT      110
+#define IDC_TEXTAREA_TEXT   111
+
+// Definição da mensagem PBM_SETPOS
+#define PBM_SETPOS      (WM_USER+2)
+
+void log(string txt) {
+    std::cout << txt << std::endl;
+}
+
+
+void addButton(HWND hwnd, LPCWSTR Titulo = L"Botao", int posx = 10, int posy = 10, int w = 80, int h = 25)
+{
+
+    CreateWindowW(L"BUTTON", Titulo, WS_VISIBLE | WS_CHILD, posx, posy, w, h, hwnd, (HMENU)IDC_BUTTON, NULL, NULL);
+}
+
+ 
+
+// Função de callback para o procedimento da janela
+LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) {
+    switch (uMsg) {
+    case WM_CREATE: {
+        // Criar os controles quando a janela é criada
+        // Criar botão
+        addButton(hwnd);
+        // Criar campo de entrada de texto
+        CreateWindowW(L"EDIT", L"", WS_VISIBLE | WS_CHILD | WS_BORDER, 100, 10, 150, 25, hwnd, (HMENU)IDC_EDIT, NULL, NULL);
+        // Criar combobox
+        CreateWindowW(L"COMBOBOX", NULL, WS_VISIBLE | WS_CHILD | CBS_DROPDOWNLIST, 260, 10, 150, 200, hwnd, (HMENU)IDC_COMBOBOX, NULL, NULL);
+        // Adicionar itens ao combobox
+        SendMessageW(GetDlgItem(hwnd, IDC_COMBOBOX), CB_ADDSTRING, 0, (LPARAM)L"Opção 1");
+        SendMessageW(GetDlgItem(hwnd, IDC_COMBOBOX), CB_ADDSTRING, 0, (LPARAM)L"Opção 2");
+        SendMessageW(GetDlgItem(hwnd, IDC_COMBOBOX), CB_ADDSTRING, 0, (LPARAM)L"Opção 3");
+        // Criar área de texto
+        CreateWindowW(L"EDIT", L"", WS_VISIBLE | WS_CHILD | WS_BORDER | ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL, 10, 45, 400, 100, hwnd, (HMENU)IDC_TEXTAREA, NULL, NULL);
+        // Criar checkbox
+        CreateWindowW(L"BUTTON", L"Checkbox", WS_VISIBLE | WS_CHILD | BS_AUTOCHECKBOX, 10, 155, 100, 25, hwnd, (HMENU)IDC_CHECKBOX, NULL, NULL);
+        // Criar botões de rádio
+        CreateWindowW(L"BUTTON", L"Opção 1", WS_VISIBLE | WS_CHILD | BS_AUTORADIOBUTTON, 10, 185, 100, 25, hwnd, (HMENU)IDC_RADIO1, NULL, NULL);
+        CreateWindowW(L"BUTTON", L"Opção 2", WS_VISIBLE | WS_CHILD | BS_AUTORADIOBUTTON, 120, 185, 100, 25, hwnd, (HMENU)IDC_RADIO2, NULL, NULL);
+        // Criar barra de progresso
+        CreateWindowW(L"msctls_progress32", NULL, WS_VISIBLE | WS_CHILD, 10, 215, 400, 25, hwnd, (HMENU)IDC_PROGRESS, NULL, NULL);
+        SendMessageW(GetDlgItem(hwnd, IDC_PROGRESS), PBM_SETPOS, 50, 0); // Definir posição inicial da barra de progresso
+
+        // Botão para verificar o estado do checkbox
+        CreateWindowW(L"BUTTON", L"Verificar Checkbox", WS_VISIBLE | WS_CHILD, 10, 250, 150, 25, hwnd, (HMENU)IDC_CHECKBOX_STATUS, NULL, NULL);
+        // Botão para exibir o texto do input
+        CreateWindowW(L"BUTTON", L"Exibir Texto do Input", WS_VISIBLE | WS_CHILD, 170, 250, 150, 25, hwnd, (HMENU)IDC_INPUT_TEXT, NULL, NULL);
+        // Botão para exibir o texto do textarea
+        CreateWindowW(L"BUTTON", L"Exibir Texto do Textarea", WS_VISIBLE | WS_CHILD, 330, 250, 150, 25, hwnd, (HMENU)IDC_TEXTAREA_TEXT, NULL, NULL);
+        break;
+    }
+    
+    case WM_COMMAND: {
+        // Manipular eventos de comando (por exemplo, clique do botão)
+        if (LOWORD(wParam) == IDC_BUTTON && HIWORD(wParam) == BN_CLICKED) {
+
+            MessageBoxW(hwnd, L"Botão foi clicado!", L"Botão Clicado", MB_OK | MB_ICONINFORMATION);
+        }
+        else if (LOWORD(wParam) == IDC_CHECKBOX_STATUS && HIWORD(wParam) == BN_CLICKED) {
+            // Verificar se o checkbox está selecionado
+            
+            BOOL checked = SendMessageW(GetDlgItem(hwnd, IDC_CHECKBOX), BM_GETCHECK, 0, 0) == BST_CHECKED;
+            MessageBoxW(hwnd, checked ? L"Checkbox está selecionado" : L"Checkbox não está selecionado", L"Verificar Checkbox", MB_OK | MB_ICONINFORMATION);
+            log(checked ? "Checkbox está selecionado" : "Checkbox não está selecionado");
+        }
+        else if (LOWORD(wParam) == IDC_INPUT_TEXT && HIWORD(wParam) == BN_CLICKED) {
+            // Obter o texto do campo de entrada
+            WCHAR buffer[256];
+            GetWindowTextW(GetDlgItem(hwnd, IDC_EDIT), buffer, 256);
+            MessageBoxW(hwnd, buffer, L"Texto do Input", MB_OK | MB_ICONINFORMATION);
+        }
+        else if (LOWORD(wParam) == IDC_TEXTAREA_TEXT && HIWORD(wParam) == BN_CLICKED) {
+            // Obter o texto da área de texto
+            WCHAR buffer[1024];
+            GetWindowTextW(GetDlgItem(hwnd, IDC_TEXTAREA), buffer, 1024);
+            MessageBoxW(hwnd, buffer, L"Texto do Textarea", MB_OK | MB_ICONINFORMATION);
+        }
+        break;
+    }
+    case WM_DESTROY:
+        // Sair do loop de mensagens quando a janela é fechada
+        PostQuitMessage(0);
+        break;
+    default:
+        // Processar outras mensagens padrão
+        return DefWindowProc(hwnd, uMsg, wParam, lParam);
+    }
+    return 0;
+}
+
+//Pra DLL, inves de "int main", usar "int WINAPI wWinMain"
+int main(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR lpCmdLine, int nCmdShow) {
+    // Registrar a classe da janela
+    WNDCLASSW wc = { 0 };
+    wc.lpfnWndProc = WindowProc;
+    wc.hInstance = hInstance;
+    wc.lpszClassName = L"MainWindow";
+    HBRUSH hBrush = CreateSolidBrush(RGB(173, 216, 230)); // Cor azul claro
+    wc.hbrBackground = hBrush;
+    RegisterClassW(&wc);
+
+  
+
+    // Criar a janela
+    HWND hwnd = CreateWindowExW(0, L"MainWindow", L"Minha Janela", WS_OVERLAPPEDWINDOW, CW_USEDEFAULT, CW_USEDEFAULT, 480, 500, NULL, NULL, hInstance, NULL);
+    if (hwnd == NULL) return 0;
+
+    // Exibir a janela
+    ShowWindow(hwnd, nCmdShow);
+
+ 
+
+    // Loop de mensagens
+    MSG msg;
+    while (GetMessageW(&msg, NULL, 0, 0)) {
+        TranslateMessage(&msg);
+        DispatchMessage(&msg);
+    }
+
+    return msg.wParam;
+}

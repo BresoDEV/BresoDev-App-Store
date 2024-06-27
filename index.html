@@ -8,6 +8,8 @@
     <title>Breso AppStore</title>
     <link rel="stylesheet" href="css.css">
 </head>
+<body>
+    
 
     <div class="ct" id="ct">
         <center>
@@ -21,8 +23,9 @@
 <script>
 
 
+apks.sort()
     apks.forEach(element => {
-        if (element[0] !== '' && element[0] !== '3' && element[4] !== '') {
+        if (element[0] !== '' && element[0] !== '3' ) {
             document.getElementById('ct').innerHTML += `
         <div class="app" onclick="window.location.href='download.html?apk=${element[0]}'">
             <img src="${element[1]}" alt="">

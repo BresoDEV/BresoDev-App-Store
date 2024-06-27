@@ -1,19 +1,64 @@
-----falta site
-Warez API
-Mod Source Cripto
-Breso Photoshop
-Stencil Maker
-Invalid File Creator
-Nightmare
 
 
-----falta apk
-Fake MailBox
-Confessionario
 
-----falta icone
-Javascript Obfuscator
-Text Encriptor
-Unicode Finder
-BackTracks
-ini Font Converter
+[2]
+nome = "BarCode Generator"
+mini-descricao = "Conversor de texto para codigo de barras"
+descricao = "Transforme texto em códigos de barras facilmente com o BarCode Generator. Este aplicativo intuitivo oferece uma maneira simples de converter qualquer texto em códigos de barras padrão, como o código de barras EAN-13. Basta inserir o texto desejado e o BarCode Generator criará instantaneamente o código de barras correspondente. Você pode então salvar o código de barras gerado como uma imagem para uso em etiquetas, documentos, produtos e muito mais. Experimente agora e simplifique o processo de criação de códigos de barras com o BarCode Generator."
+
+nome = "WhatsApp Bot"
+icone = "img/whatsappbot.jpg"
+mini-descricao = "Bot personalizavel com o design do WhatsApp"
+descricao = "Transforme suas interações online com o WhatsApp Bot. Este bot altamente personalizável apresenta o design familiar do WhatsApp, oferecendo uma experiência de conversação intuitiva e envolvente. Desde responder a perguntas frequentes até fornecer informações personalizadas, o WhatsApp Bot é a ferramenta perfeita para automatizar suas conversas e proporcionar um atendimento ao cliente eficiente. Com uma interface amigável e recursos avançados de IA, o WhatsApp Bot está pronto para elevar suas interações online a um novo patamar. Experimente hoje e descubra o poder da automação de conversas com o WhatsApp Bot."
+
+nome = "A-Valia"
+icone = "img/avalia.jpg"
+mini-descricao = "Aplicativo para avaliar locais"
+descricao = "Descubra, compartilhe e avalie seus lugares favoritos com o A-Valia. Este aplicativo intuitivo de avaliações de locais permite que você encontre facilmente as melhores opções ao seu redor, com base em avaliações e recomendações da comunidade. Desde restaurantes e cafés até parques e pontos turísticos, o A-Valia oferece insights valiosos para ajudá-lo a tomar decisões informadas sobre onde ir e o que fazer. Além disso, você pode contribuir com suas próprias avaliações e compartilhar suas experiências com outros usuários. Experimente hoje mesmo o A-Valia e descubra novos lugares com confiança."
+
+
+nome = "Terror Prime"
+icone = "img/terrorprime.jpg"
+mini-descricao = "Aplicativo de filmes de terror (em desenvolvimento)"
+descricao = "Prepare-se para mergulhar no mundo do terror com o TerrorPrime. Este aplicativo de filmes de terror, atualmente em desenvolvimento, promete oferecer uma coleção assustadora de filmes de qualidade para os entusiastas do gênero. Desde clássicos cult até lançamentos recentes, o TerrorPrime está preparado para satisfazer sua sede por sustos e arrepios. Com recursos exclusivos, como recomendações personalizadas e curadoria especializada, o TerrorPrime promete proporcionar uma experiência de visualização emocionante e memorável para os amantes do terror. Fique de olho no lançamento do TerrorPrime e prepare-se para uma jornada aterrorizante através dos filmes mais assustadores de todos os tempos."
+
+nome = "Chinese Kripto"
+icone = "img/chinese.jpg"
+mini-descricao = "Encriptador de texto para caracteres chineses"
+descricao = "Proteja suas mensagens com o Chinese Kripto, um poderoso encriptador de texto que transforma suas palavras em caracteres chineses, garantindo segurança e confidencialidade. Este aplicativo utiliza uma técnica avançada de criptografia para converter seu texto original em uma forma incompreensível, tornando-o praticamente impossível de ser decifrado sem a chave correta. Com o Chinese Kripto, você pode enviar mensagens seguras através de qualquer plataforma de comunicação, protegendo suas informações contra olhares curiosos. Experimente agora e mantenha suas comunicações seguras com o Chinese Kripto."
+
+nome = "Chinese De-Kripto"
+icone = "img/chinese.jpg"
+mini-descricao = "Decriptador de texto para caracteres chineses"
+
+nome = "Hacker Typer"
+icone = ""
+mini-descricao = "Simulador de um terminal hacker"
+descricao = "Entre no mundo da ficção de hacking com o Hacker Typer. Este simulador de terminal hacker oferece uma experiência envolvente, permitindo que você digite rapidamente em um terminal fictício enquanto comandos e códigos são exibidos na tela. Com uma interface realista e sons de computador autênticos, o Hacker Typer é perfeito para criar o clima de hacker em apresentações, vídeos ou simplesmente para se divertir. Impressione seus amigos e colegas com suas habilidades hackeando no Hacker Typer."
+
+nome = "Emojis Database"
+icone = ""
+mini-descricao = "Apk com toda lista de emojis disponiveis para usar na web"
+descricao = "Tenha acesso à lista completa de emojis disponíveis para uso na web com o Emojis Database. Este aplicativo oferece uma extensa coleção de emojis, permitindo que você encontre e insira facilmente o emoji perfeito para expressar suas emoções, sentimentos e ideias. Com uma interface amigável e recursos de busca avançados, o Emojis Database torna simples encontrar o emoji certo para qualquer ocasião. Além disso, você pode explorar categorias temáticas e descobrir novos emojis para adicionar diversidade às suas comunicações online. Experimente agora e enriqueça suas mensagens com a vasta seleção de emojis disponíveis no Emojis Database."
+
+*/
+
+var apks = [
+
+   
+   
+    
+   
+   
+    [
+        'BackTracks',
+        'img/BackTracks.jpg',
+        'Aplicativo com um acervo de músicas de rock sem faixas de guitarra, para que guitarrista possam tocar junto com a música.',
+        'Libere o guitarrista dentro de você com o BackTracks. Este aplicativo oferece um acervo de músicas de rock sem faixas de guitarra, permitindo que você toque junto com as músicas sem a interferência da guitarra original. Com uma coleção cuidadosamente selecionada de músicas estabelecidas por você, o BackTracks é a ferramenta perfeita para praticar, improvisar e se divertir com suas músicas favoritas. Seja você um iniciante ou um guitarrista experiente, o BackTracks irá inspirar sua criatividade e elevar suas habilidades musicais. Experimente agora e leve suas performances de guitarra para o próximo nível com o BackTracks.',
+        'apks/BackTracks.apk',
+        'https://bresodev.github.io/BackingTracks/'
+    ],
+   
+  
+    
+   
