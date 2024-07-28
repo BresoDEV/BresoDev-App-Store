@@ -1,219 +1,288 @@
-### Breaking Bad
+
+<details>
+<summary>### BCoin </summary>
+>> Aplicativo intuitivo para facilitar a compra e venda de BCoins
+[Download do APK](apks/bcoin.apk)
+
+</details>
+
+<details>
+<summary>### Breaking Bad </summary>
 >> Jogo baseado na série de tv
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/Breaking%20Bad%201.0.apk)
-* [Acessar Site](https://bresodev.github.io/Breaking-Bad-Game/)
+[Download do APK](apks/Breaking Bad.apk)
+[Acessar Site](https://bresodev.github.io/Breaking-Bad-Game/)
 
+</details>
 
----
-### Breso Photoshop
+<details>
+<summary>### Breso Photoshop </summary>
 >> Simples editor de imagens
-* [Acessar Site](https://bresodev.github.io/Editor-de-Imagens-Javascript/)
+[Acessar Site](https://bresodev.github.io/Editor-de-Imagens-Javascript/)
 
+</details>
 
----
-### BresoAI
+<details>
+<summary>### BresoGPT </summary>
 >> Aplicativo inspirado no ChatGPT
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/BresoAI%201.0.apk)
+[Download do APK](apks/BresoGPT.apk)
+[Acessar Site](https://bresodev.github.io/GPT-Via-JSON/)
 
+</details>
 
----
-### CSS Maker
+<details>
+<summary>### CSS Maker </summary>
 >> Aplicacao para facilitar a estilização de elementos HTML usando CSS
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/CSS%20Maker%201.0.apk)
-* [Acessar Site](https://bresodev.github.io/Css-Maker/)
+[Download do APK](apks/CSS Maker.apk)
+[Acessar Site](https://bresodev.github.io/Css-Maker/)
 
+</details>
 
----
-### Calculo IMC
+<details>
+<summary>### Calculo IMC </summary>
 >> App que calcula a massa corporea
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/IMC%201.0.apk)
-* [Acessar Site](https://bresodev.github.io/Calculo-IMC/)
+[Download do APK](apks/Calculo IMC.apk)
+[Acessar Site](https://bresodev.github.io/Calculo-IMC/)
 
+</details>
 
----
-### Chatbot Calculadora
+<details>
+<summary>### Chatbot Calculadora </summary>
 >> Bot que faz contas basicas de matematica
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/Bot%20Calculadora%201.0.apk)
-* [Acessar Site](https://bresodev.github.io/BotCalculadora/)
+[Download do APK](apks/Chatbot Calculadora.apk)
+[Acessar Site](https://bresodev.github.io/BotCalculadora/)
 
+</details>
 
----
-### Dark Font
+<details>
+<summary>### Confessionario </summary>
+>> Site para fazer confissões de modo anonimo
+[Download do APK](apks/Confessionario.apk)
+[Acessar Site](http://bresodev.free.nf/Confessionario/)
+
+</details>
+
+<details>
+<summary>### CrushAI </summary>
+>> Chatbot que simula um namorado ou uma namorada virtual
+[Download do APK](apks/CrushAI.apk)
+
+</details>
+
+<details>
+<summary>### Dark Font </summary>
 >> Conversor de texto para fonte estilizada
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/Dark%20Font%201.0.apk)
-* [Acessar Site](https://bresodev.github.io/DarkFont/)
+[Download do APK](apks/Dark Font.apk)
+[Acessar Site](https://bresodev.github.io/DarkFont/)
 
+</details>
 
----
-### E-mail Anonimo
->> Sistema de envio de email anonimo/fake
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/Email%20Anonimo%201.0.apk)
-
-
----
-### Fake MailBox
+<details>
+<summary>### Fake MailBox </summary>
 >> Sistema que você pode criar seu email personalizado com qualquer nome e domínio
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/Fake%20MailBox%201.0.apk)
-* [Acessar Site](https://bresodev.github.io/redirecionador_apk/EmailBox.html)
+[Download do APK](apks/FakeMailBox.apk)
+[Acessar Site](http://bresodev.free.nf/EmailBox/login.php)
 
+</details>
 
----
-### Forum CDS
+<details>
+<summary>### Forum CDS </summary>
 >> Fórum destinado a alunos de Ciências da Computação da escola Cruzeiro do Sul
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/CDC%20EAD%201.0.apk)
-* [Acessar Site](https://bresodev.github.io/redirecionador_apk/ForumCDS.html)
+[Download do APK](apks/Forum CDS.apk)
+[Acessar Site](http://bresodev.free.nf/CDSEAD/)
 
+</details>
 
----
-### HTML Cripto
+<details>
+<summary>### HTML Cripto </summary>
 >> Obfuscador de codigo HTML
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/HTML%20Cripto%201.0.apk)
-* [Acessar Site](https://bresodev.github.io/CriptoHTML/)
+[Download do APK](apks/HTML Cripto.apk)
+[Acessar Site](https://bresodev.github.io/CriptoHTML/)
 
+</details>
 
----
-### Invalid File Creator
+<details>
+<summary>### Invalid File Creator </summary>
 >> Cria arquivos inválidos e corrompidos de qualquer tamanho ou extensão, para ser usado como desculpa quando não fez um trabalho e precisa entregar
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/Invalid%20File%20Creator%201.0.apk)
-* [Acessar Site](https://bresodev.github.io/redirecionador_apk/InvaliFileCreator.html)
+[Download do APK](apks/Invalid File Creator.apk)
+[Acessar Site](http://bresodev.free.nf/InvalidFileCreator)
 
+</details>
 
----
-### Javascript Obfuscator
+<details>
+<summary>### Javascript Obfuscator </summary>
 >> Obfuscador de codigo Javascript
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/JS%20Obfuscator%201.0.apk)
-* [Acessar Site](https://bresodev.github.io/JS-Obfuscator/)
+[Download do APK](apks/Javascript Obfuscator.apk)
+[Acessar Site](https://bresodev.github.io/JS-Obfuscator/)
 
+</details>
 
----
-### Junk Code
+<details>
+<summary>### Junk Code </summary>
 >> Gerador de junk code para varias linguagens
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/Junk%20Code%20Creator%201.0.apk)
-* [Acessar Site](https://bresodev.github.io/Web-Junk-Code/)
+[Download do APK](apks/Junk Code.apk)
+[Acessar Site](https://bresodev.github.io/Web-Junk-Code/)
 
+</details>
 
----
-### Lembretes
+<details>
+<summary>### KeyGuard </summary>
+>> Proteja suas senhas com segurança e conveniência usando o KeyGuard
+[Download do APK](apks/KeyGuard.apk)
+
+</details>
+
+<details>
+<summary>### Lembretes </summary>
 >> Aplicativo para adicionar lembretes
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/Lembretes%201.0.apk)
-* [Acessar Site](https://bresodev.github.io/Post-Its/)
+[Download do APK](apks/Lembretes.apk)
+[Acessar Site](https://bresodev.github.io/Post-Its/)
 
+</details>
 
----
-### LeroLero
+<details>
+<summary>### LeroLero </summary>
 >> Gerador de texto aleatorio (lero lero)
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/Lero%20Lero%201.0.apk)
-* [Acessar Site](https://bresodev.github.io/LeroLero/)
+[Download do APK](apks/LeroLero.apk)
+[Acessar Site](https://bresodev.github.io/LeroLero/)
 
+</details>
 
----
-### Live Server
+<details>
+<summary>### Live Server </summary>
 >> Programa que simula um server ao vivo, para criar sites, permitindo mudar o html/css/js em tempo real.
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/LiveServer%201.0.apk)
-* [Acessar Site](https://bresodev.github.io/LiveServer/)
+[Download do APK](apks/Live Server.apk)
+[Acessar Site](https://bresodev.github.io/LiveServer/)
 
+</details>
 
----
-### Markdown Creator
+<details>
+<summary>### Markdown Creator </summary>
 >> Formatador e gerador de textos em formato Markdown
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/MarkDown%201.0.apk)
-* [Acessar Site](https://bresodev.github.io/MarkdownCreator/)
+[Download do APK](apks/Markdown Creator.apk)
+[Acessar Site](https://bresodev.github.io/MarkdownCreator/)
 
+</details>
 
----
-### Mensagens Automaticas
+<details>
+<summary>### Market List </summary>
+>> Aplicativo ideal para criar e gerenciar listas de compras
+[Download do APK](apks/marketlist.apk)
+
+</details>
+
+<details>
+<summary>### Medical List </summary>
+>> Aplicativo para cadastrar sintomas e os remédios correspondentes
+[Download do APK](apks/medicallist.apk)
+
+</details>
+
+<details>
+<summary>### Mensagens Automaticas </summary>
 >> Gerador de mensagens de temas diversos (bom dia, boa noite, aniversario, etc...)
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/Mensagens%201.0.apk)
-* [Acessar Site](https://bresodev.github.io/MensagensBomDia/)
+[Download do APK](apks/Mensagens Automaticas.apk)
+[Acessar Site](https://bresodev.github.io/MensagensBomDia/)
 
+</details>
 
----
-### Mini Font Converter
+<details>
+<summary>### Mini Font Converter </summary>
 >> Converte frases em caracteres menores que a fonte normal
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/Mini%20Font%20Converter%201.0.apk)
-* [Acessar Site](https://bresodev.github.io/MiniFont-Creator/)
+[Download do APK](apks/Mini Font Converter.apk)
+[Acessar Site](https://bresodev.github.io/MiniFont-Creator/)
 
+</details>
 
----
-### Mod Source Cripto
->> Obfuscador de source codes para mods para GTAV e RDR2, criados usando C++
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/Mod%20Cripto%201.0.apk)
-* [Acessar Site](https://bresodev.github.io/RockstarModCripto/)
-
-
----
-### Nightmare Game
+<details>
+<summary>### Nightmare Game </summary>
 >> Jogo de terror, onde voce assume o papel de um vigia noturno em seu nomo emprego.
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/Nightmares%201.0.apk)
-* [Acessar Site](https://bresodev.github.io/Nightmares/)
+[Download do APK](apks/Nightmare Game.apk)
+[Acessar Site](https://bresodev.github.io/Nightmares/)
 
+</details>
 
----
-### PHP Code Obfuscator
+<details>
+<summary>### PHP Code Obfuscator </summary>
 >> Obfuscador de codigo PHP
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/PHP%20Obfuscator%201.0.apk)
-* [Acessar Site](https://bresodev.github.io/PHP-Obfuscator/)
+[Download do APK](apks/PHP Code Obfuscator.apk)
+[Acessar Site](https://bresodev.github.io/PHP-Obfuscator/)
 
+</details>
 
----
-### PasteBoot
+<details>
+<summary>### PasteBoot </summary>
 >> Aplicativo semelhante ao Pastebin, para hospedar e compartilhar textos diversos
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/PasteBoot%201.0.apk)
-* [Acessar Site](https://bresodev.github.io/redirecionador_apk/PasteBot.html)
+[Download do APK](apks/PasteBoot.apk)
+[Acessar Site](http://bresodev.free.nf/Pasteboot/)
 
+</details>
 
----
-### Rockstar Games Hasher
+<details>
+<summary>### Rockstar Games Hasher </summary>
 >> Gerador e conversor de string ou listas para hash, usados em scripts de jogos da Rockstar Games (GTAV,RDR2,etc...)
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/Hasher%201.0.apk)
-* [Acessar Site](https://bresodev.github.io/Hash-Generator-Javascript/)
+[Download do APK](apks/Rockstar Games Hasher.apk)
+[Acessar Site](https://bresodev.github.io/Hash-Generator-Javascript/)
 
+</details>
 
----
-### SpeakUp Chat
+<details>
+<summary>### Show do Milhão </summary>
+>> Jogo semelhante ao programa, com perguntas e respostas
+[Download do APK](apks/Show do Milhão.apk)
+[Acessar Site](https://bresodev.github.io/Show-do-Milhao/)
+
+</details>
+
+<details>
+<summary>### SpeakUp Chat </summary>
 >> Aplicativo de conversas/chat entre usuarios
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/Speak%20Up%201.0.apk)
-* [Acessar Site](https://bresodev.github.io/redirecionador_apk/SpeakUp.html)
+[Download do APK](apks/SpeakUp.apk)
+[Acessar Site](http://speakup.free.nf/)
 
+</details>
 
----
-### Stencil Maker
+<details>
+<summary>### Stencil Maker </summary>
 >> Crie facilmente stencils a partir de suas imagens
-* [Acessar Site](https://bresodev.github.io/Stencil-Maker/)
+[Acessar Site](https://bresodev.github.io/Stencil-Maker/)
 
+</details>
 
----
-### Text Encriptor
+<details>
+<summary>### Text Encriptor </summary>
 >> Encriptador e decriptador de textos
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/Texto%20Cripto%201.0.apk)
-* [Acessar Site](https://bresodev.github.io/Criptografia-Strings/)
+[Download do APK](apks/Text Encriptor.apk)
+[Acessar Site](https://bresodev.github.io/Criptografia-Strings/)
 
+</details>
 
----
-### Unicode Finder
+<details>
+<summary>### Unicode Finder </summary>
 >> Localize codigos de fontes unicode
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/FontFinder%201.0.apk)
-* [Acessar Site](https://bresodev.github.io/FontFinder/)
+[Download do APK](apks/Unicode Finder.apk)
+[Acessar Site](https://bresodev.github.io/FontFinder/)
 
+</details>
 
----
-### Version Checker
+<details>
+<summary>### Version Checker </summary>
 >> Aplicativo que checka a autenticidade de um texto usando uma chave de acesso
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/Version%20Check%201.0.apk)
-* [Acessar Site](https://bresodev.github.io/Version-Checker-/)
+[Download do APK](apks/Version Checker.apk)
+[Acessar Site](https://bresodev.github.io/Version-Checker-/)
 
+</details>
 
----
-### Warez API
+<details>
+<summary>### Warez API </summary>
 >> Aplicativo de filmes via link do IMDB
-* [Acessar Site](https://bresodev.github.io/WarezAPI/)
+[Acessar Site](https://bresodev.github.io/WarezAPI/)
 
+</details>
 
----
-### WhiteJack
+<details>
+<summary>### WhiteJack </summary>
 >> Joguinho de cassino caça níquel, onde você pode jogar sem usar dinheiro real
-* [Download do APK](https://bresodev.github.io/BresoDev-App-Store/apks/WhiteJack%201.0.apk)
-* [Acessar Site](https://bresodev.github.io/Roleta-Cassino/)
+[Download do APK](apks/WhiteJack.apk)
+[Acessar Site](https://bresodev.github.io/Roleta-Cassino/)
 
-
----
+</details>
