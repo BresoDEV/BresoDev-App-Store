@@ -1,7 +1,7 @@
 
 <details>
 <summary>### BCoin </summary>
->> Aplicativo intuitivo para facilitar a compra e venda de BCoins
+>> Aplicativo intuitivo para facilitar a compra e venda de BCoins <br>
 [Download do APK](apks/bcoin.apk)
 
 </details>
