@@ -2,42 +2,145 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Breso AppStore</title>
-    <link rel="stylesheet" href="css.css">
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Breso AppStore</title>
+      <link rel="stylesheet" href="css.css">
 </head>
-<body>
-    
 
-    <div class="ct" id="ct">
-        <center>
+<div class="ct" id="ct">
+      <center>
             <h2>BresoDEV AppStore</h2>
-        </center>
-        <hr>
-    </div>
+      </center>
+      <hr>
+</div>
 </body>
 <script src="apks.js"></script>
- 
+
 <script>
 
-
 apks.sort()
-    apks.forEach(element => {
-        if (element[0] !== '' && element[0] !== '3' ) {
-            document.getElementById('ct').innerHTML += `
-        <div class="app" onclick="window.location.href='download.html?apk=${element[0]}'">
-            <img src="${element[1]}" alt="">
-            <div class="app-info">
-                <h3>${element[0]}</h3>
-                <p>${element[2]}</p>
-            </div>
-        </div>
-        `;
-        }
 
-    });
+      var Faltafoto = []
+      var Faltaminidesc = []
+      var Faltadescriçãodetalhada = []
+      var FaltaAPK = []
+      var Faltasite = []
+
+      apks.forEach(element => {
+
+            if (element[0] !== '') {
+
+                  if (element[1] === '') {
+                        Faltafoto.push(element[0])
+                  }
+                  if (element[2] === '') {
+                        Faltaminidesc.push(element[0])
+                  }
+                  if (element[3] === '') {
+                        Faltadescriçãodetalhada.push(element[0])
+                  }
+                  if (element[4] === '') {
+                        FaltaAPK.push(element[0])
+                  }
+                  if (element[5] === '') {
+                        Faltasite.push(element[0])
+                  }
+
+                  if (element[1] !== '' && element[2] !== '' && element[3] !== '') {
+
+                        if (element[4] !== 'vazio' || element[5] !== 'vazio') {
+
+                              if(element[5] !== '' && element[4] !== ''){
+                                    document.getElementById('ct').innerHTML += `
+                              <div class="app" onclick="window.location.href='download.html?apk=${element[0]}'">
+                                  <img src="${element[1]}" alt="">
+                                  <div class="app-info">
+                                      <h3>${element[0]}</h3>
+                                      <p>${element[2]}</p>
+                                  </div>
+                              </div>
+                              `;
+                              }
+                              
+                        }
+                  }
+
+
+
+
+            }
+
+      });
+
+
+
+
+      /*
+      var Faltafoto =[]
+      var Faltaminidesc =[]
+      var Faltadescriçãodetalhada =[]
+      var FaltaAPK =[]
+      var Faltasite =[]
+      */
+
+      //log de itens incompletos
+
+      var string_Faltafoto = 'Falta foto: \n'
+      var string_Faltaminidesc = 'Falta mini desc: \n'
+      var string_Faltadescriçãodetalhada = 'Falta descrição detalhada:\n'
+      var string_FaltaAPK = 'Falta APK: \n'
+      var string_Faltasite = 'Falta site: \n'
+
+      Faltafoto.forEach(element => {
+            string_Faltafoto += element + '\n'
+      });
+
+      Faltaminidesc.forEach(element => {
+            string_Faltaminidesc += element + '\n'
+      });
+
+      Faltadescriçãodetalhada.forEach(element => {
+            string_Faltadescriçãodetalhada += element + '\n'
+      });
+
+      FaltaAPK.forEach(element => {
+            string_FaltaAPK += element + '\n'
+      });
+
+      Faltasite.forEach(element => {
+            string_Faltasite += element + '\n'
+      });
+
+      //-------------------------------
+      if (Faltasite.length > 0) {
+            console.log(string_Faltafoto);
+            console.log('-----------------');
+      }
+      if (Faltaminidesc.length > 0) {
+            console.log(string_Faltaminidesc);
+            console.log('-----------------');
+      }
+      if (Faltadescriçãodetalhada.length > 0) {
+            console.log(string_Faltadescriçãodetalhada);
+            console.log('-----------------');
+      }
+      if (FaltaAPK.length > 0) {
+            console.log(string_FaltaAPK);
+            console.log('-----------------');
+      }
+      if (Faltasite.length > 0) {
+            console.log(string_Faltasite);
+      }
+
+
+
+
+
+
+
+
 </script>
 
 </html>

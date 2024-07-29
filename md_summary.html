@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breso AppStore</title>
+</head>
+
+<body>
+    
+
+    
+
+</body>
+<script src="apks.js"></script>
+
+<script>
+    var final = ''
+
+    apks.sort()
+    apks.forEach(element => {
+        if (element[0] !== '') {
+            //nome do apk   ${element[0]}
+            //desc          ${element[2]}
+            //apk           ${element[4]}
+            //site          ${element[5]}
+            //
+            //link [nome](url)
+            //nome do apk ###
+            // > inicio e fim > ou >> inicio
+            //listas * palavra
+
+
+            if (element[4] !== '' || element[5] !== '') {
+
+
+                if (element[4] !== 'vazio') {
+                    if (element[4] !== 'vazio' && element[5] !== 'vazio') {//tem apk e site
+
+                        final += `
+                    <details>
+                    <summary><b>${element[0]}</b></summary>
+                        <br>
+                        <i>${element[2]}</i><br><br>
+                        <br><a href="https://bresodev.github.io/BresoDEV-App-Store/${element[4]}" download="https://bresodev.github.io/BresoDEV-App-Store/${element[4]}">Download do APK</a>
+                        <br><a href="${element[5]}" target="_blank">Acessar Site</a>  
+                        <br>
+                    </details>
+                    `;
+
+
+
+
+                    }
+                    else {//tem só apk
+
+                        final += `
+                    <details>
+                        <summary><b>${element[0]}</b></summary>
+                        <br>
+                        <i>${element[2]}</i><br><br> 
+                        <br><a href="https://bresodev.github.io/BresoDEV-App-Store/${element[4]}" download="https://bresodev.github.io/BresoDEV-App-Store/${element[4]}">Download do APK</a>  
+                        <br>
+                    </details>
+                    `;
+
+
+
+                    }
+                }
+                else if (element[5] !== 'vazio') {
+                    if (element[4] !== 'vazio' && element[5] !== 'vazio') {//tem apk e site
+
+                        final += `
+                    <details>
+                        <summary><b>${element[0]}</b></summary>
+                        <br>
+                        <i>${element[2]}</i><br><br> 
+                        <br><a href="https://bresodev.github.io/BresoDEV-App-Store/${element[4]}" download="https://bresodev.github.io/BresoDEV-App-Store/${element[4]}">Download do APK</a> 
+                        <br><a href="${element[5]}" target="_blank">Acessar Site</a>  
+                        <br>    
+                    </details>
+                    `;
+
+
+
+                    }
+                    else {//tem só site
+
+                        final += `
+                    <details>
+                        <summary><b>${element[0]}</b></summary>
+                        <br>
+                        <i>${element[2]}</i><br><br>
+                        <br><a href="${element[5]}" target="_blank">Acessar Site</a>  
+                        <br>
+                    </details>
+                    `;
+
+
+
+
+                    }
+                }
+
+            }
+
+
+
+
+
+
+
+
+        }
+
+    });
+
+
+
+    document.body.innerText = final
+</script>
+
+</html>

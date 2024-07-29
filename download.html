@@ -12,6 +12,10 @@
 
 
 <body>
+    <br>
+    <center>
+        <a href="index.html">Voltar</a>
+    </center>
     <div class="ct" id="ct">
 
 
@@ -31,7 +35,7 @@
     if (get.get('apk')) {
         apks.forEach(element => {
             if (element[0] === get.get('apk')) {
-                if (element[5] !== '' && element[4] !== '') {
+                if (element[5] !== 'vazio' && element[4] !== 'vazio' ) {
                     document.getElementById('ct').innerHTML = `
                 <div class="app">
             <img src="${element[1]}" alt="">
@@ -48,7 +52,7 @@
         </div>
                 `+ document.getElementById('ct').innerHTML;
                 }
-                else if (element[4] !== '') {
+                else if (element[4] !== 'vazio') {
                     document.getElementById('ct').innerHTML = `
                 <div class="app">
             <img src="${element[1]}" alt="">
@@ -64,7 +68,7 @@
         </div>
                 `+ document.getElementById('ct').innerHTML;
                 }
-                else if (element[5] !== '') {
+                else if (element[5] !== 'vazio') {
                     document.getElementById('ct').innerHTML = `
                 <div class="app">
             <img src="${element[1]}" alt="">
@@ -96,12 +100,11 @@
     var _1 = Math.floor(Math.random() * (apks.length / 4))
     var _2 = _1 + 1
     var _3 = _2 + 1
-    var arrays = [_1,_2,_3];
+    var arrays = [_1, _2, _3];
 
     arrays.forEach(element => {
-       if(apks[element][1] !== '' && apks[element][0] !== '')
-       {
-        document.getElementById('rel').innerHTML += `
+        if (apks[element][1] !== '' && apks[element][0] !== '') {
+            document.getElementById('rel').innerHTML += `
         
         <div class="rel-app">
             <a href="download.html?apk=${apks[element][0]}" class="ab" style="background-color:transparent"> 
@@ -112,11 +115,11 @@
             </div>
           
         `;
-       }
+        }
     });
 
 
-    
+
 
 
 
