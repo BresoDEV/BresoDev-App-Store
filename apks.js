@@ -372,12 +372,12 @@ var apks = [
         'vazio'
     ],
     [
-        '',//nome do projeto
-        '',//foto
-        '',//mini descrição
-        '',//descrição completa
-        'vazio',//apks/.apk
-        'vazio'//site
+        'Pow',//nome do projeto
+        'img/pow.jpg',//foto
+        'Cuide do seu próprio bichinho virtual com o Pow!',//mini descrição
+        'Cuide do seu próprio bichinho virtual com o Pow! Alimente, brinque e cuide dele para mantê-lo feliz e saudável. Com uma interface divertida e interativa, Pow é perfeito para quem adora jogos de cuidado e quer um companheiro virtual sempre por perto.',//descrição completa
+        'apks/Pow.apk',//apks/.apk
+        'https://bresodev.github.io/Pow/'//site
     ],
     [
         '',//nome do projeto
