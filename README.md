@@ -323,3 +323,13 @@
 <br><a href="https://bresodev.github.io/Roleta-Cassino/" target="_blank">Acessar Site</a>
 <br>
 </details>
+
+	
+<details>
+<summary><b>Pow</b></summary>
+<br>
+<i>Cuide do seu próprio bichinho virtual com o Pow!</i><br><br>
+<br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/Pow.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/Pow.apk">Download do APK</a>
+<br><a href="https://bresodev.github.io/Pow/" target="_blank">Acessar Site</a>
+<br>
+</details>
