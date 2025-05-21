@@ -16,11 +16,7 @@ icone = "img/avalia.jpg"
 mini-descricao = "Aplicativo para avaliar locais"
 descricao = "Descubra, compartilhe e avalie seus lugares favoritos com o A-Valia. Este aplicativo intuitivo de avaliações de locais permite que você encontre facilmente as melhores opções ao seu redor, com base em avaliações e recomendações da comunidade. Desde restaurantes e cafés até parques e pontos turísticos, o A-Valia oferece insights valiosos para ajudá-lo a tomar decisões informadas sobre onde ir e o que fazer. Além disso, você pode contribuir com suas próprias avaliações e compartilhar suas experiências com outros usuários. Experimente hoje mesmo o A-Valia e descubra novos lugares com confiança."
 
-nome = "Confessionario"
-icone = "img/confesionario.jpg"
-mini-descricao = "Site para fazer postagens em modo anonimo"
-descricao = "Liberte-se de suas preocupações e compartilhe suas confissões de forma anônima com o Confessionário. Este site seguro e acolhedor oferece um espaço onde você pode expressar seus pensamentos, sentimentos e segredos sem revelar sua identidade. Seja para desabafar sobre problemas pessoais, compartilhar pensamentos íntimos ou simplesmente buscar conforto na comunidade, o Confessionário está aqui para oferecer apoio e compreensão. Com total anonimato e um ambiente livre de julgamentos, você pode encontrar alívio ao compartilhar suas confissões com outros usuários que podem se identificar com suas experiências. Experimente o Confessionário hoje e sinta o peso sendo aliviado de seus ombros enquanto você compartilha suas confissões de maneira segura e discreta."
-
+ 
 nome = "Terror Prime"
 icone = "img/terrorprime.jpg"
 mini-descricao = "Aplicativo de filmes de terror (em desenvolvimento)"
@@ -47,14 +43,19 @@ descricao = "Tenha acesso à lista completa de emojis disponíveis para uso na w
 
 
 [
-        'E-mail Anonimo',
-        'img/emailanon.jpg',
-        'Sistema de envio de email anonimo/fake',
-        'Proteja sua privacidade online com o E-mail Anônimo. Nosso sistema de envio de e-mails permite que você envie mensagens sem revelar sua identidade, mantendo sua privacidade protegida. Seja para comunicações confidenciais ou simplesmente para manter seu anonimato, o E-mail Anônimo oferece uma solução segura e confiável. Com recursos avançados de anonimato e uma interface simples de usar, enviar e-mails sem revelar sua identidade nunca foi tão fácil. Experimente agora e mantenha o controle sobre sua privacidade online com o E-mail Anônimo.',
-        'apks/E-mail Anonimo.apk',
-        ''
+  
+*/
+
+var apks = [
+    [
+        'Cocoladora',
+        'img/Cocoladora.png',
+        'Descubra quanto você lucra no trono com base no seu salário por hora.',
+        'O Cocoladora é um app divertido e irreverente que calcula quanto dinheiro você “ganha” durante suas idas ao banheiro no expediente. Basta informar seu salário por hora, e o aplicativo faz as contas com base no tempo que você passa sentado no trono. Ideal para quem adora piadas de escritório, ama estatísticas curiosas ou só quer rir enquanto trabalha, o Cocoladora combina humor com matemática simples. Além do valor estimado, o app também mostra um histórico de visitas, média diária e até rankings, tudo com uma interface leve e bem-humorada. Leve seu senso de humor ao próximo nível — afinal, tempo é dinheiro, até no banheiro!',
+        'apks/Cocoladora 1.0.apk',
+        'vazio'
     ],
-	[
+    [
         'BackTracks',
         'img/BackTracks.jpg',
         'Aplicativo com um acervo de músicas de rock sem faixas de guitarra, para que guitarrista possam tocar junto com a música.',
@@ -62,9 +63,6 @@ descricao = "Tenha acesso à lista completa de emojis disponíveis para uso na w
         'apks/BackTracks.apk',
         'https://bresodev.github.io/BackingTracks/'
     ],
-*/
-
-var apks = [
     [
         'BresoGPT',
         'img/gpt.jpg',
@@ -87,7 +85,7 @@ var apks = [
         'Aplicativo de conversas/chat entre usuarios',
         'Transforme suas conversas em uma experiência envolvente e eficiente com o SpeakUp Chat. Este aplicativo de mensagens permite que você se conecte com amigos, familiares e colegas de forma rápida e fácil. Com recursos intuitivos e uma interface amigável, o SpeakUp Chat oferece uma plataforma segura e confiável para trocar mensagens, compartilhar mídia e manter-se conectado onde quer que você esteja. Experimente hoje mesmo o SpeakUp Chat e eleve suas conversas a um novo nível.',
         'apks/SpeakUp.apk',
-        'http://speakup.free.nf/'
+        'https://bresodev.github.io/redirecionador_apk/SpeakUp.html'
     ],
     [
         'PasteBoot',
@@ -95,7 +93,7 @@ var apks = [
         'Aplicativo semelhante ao Pastebin, para hospedar e compartilhar textos diversos',
         'Simplifique o compartilhamento e a hospedagem de textos e códigos com o PasteBoot. Este aplicativo intuitivo oferece uma plataforma fácil de usar para compartilhar e armazenar uma variedade de conteúdos, desde trechos de código até notas e textos informativos. PasteBoot torna o processo de compartilhar informações mais conveniente do que nunca. Experimente agora e descubra como o PasteBoot pode simplificar suas necessidades de compartilhamento de conteúdo.',
         'apks/PasteBoot.apk',
-        'http://bresodev.free.nf/Pasteboot/'
+        'https://bresodev.github.io/redirecionador_apk/PasteBot.html'
     ],
     
     [
@@ -215,8 +213,8 @@ var apks = [
         'img/msc.png',
         'Obfuscador de source codes para mods para GTAV e RDR2, criados usando C++',
         'Proteja a integridade de seus mods para Grand Theft Auto V (GTA V) e Red Dead Redemption 2 (RDR2) com o Mod Source Cripto. Este obfuscador especializado em source codes escritos em C++ permite que você ofusque o código de seus mods, tornando-os mais difíceis de serem entendidos e modificados por terceiros. Com técnicas avançadas de obfuscation, como renomeação de variáveis, ofuscação de strings e compressão de código, o Mod Source Cripto oferece uma camada adicional de segurança para seus mods. Garanta a proteção de sua propriedade intelectual e mantenha seus mods seguros com o Mod Source Cripto.',
-        '',
-        ''
+        'vazio',
+        'https://bresodev.github.io/RockstarModCripto'
     ],
     [
         'HTML Cripto',
@@ -281,7 +279,7 @@ var apks = [
         'Fórum destinado a alunos de Ciências da Computação da escola Cruzeiro do Sul',
         'Participe do Fórum CDSEAD, uma plataforma dedicada aos alunos de Ciências da Computação da escola Cruzeiro do Sul. Aqui, os estudantes podem discutir sobre diversos temas relacionados à área, compartilhar conhecimento, fazer perguntas, e interagir uns com os outros. Desde dúvidas sobre programação até debates sobre tendências tecnológicas, o Fórum CDSEAD é o lugar ideal para trocar ideias e aprender junto com a comunidade acadêmica. Junte-se a nós e aproveite ao máximo sua jornada na área de Ciências da Computação!',
         'apks/Forum CDS.apk',
-        'http://bresodev.free.nf/CDSEAD/'
+        'https://bresodev.github.io/redirecionador_apk/ForumCDS.html'
     ],
     [
         'Invalid File Creator',
@@ -289,7 +287,7 @@ var apks = [
         'Cria arquivos inválidos e corrompidos de qualquer tamanho ou extensão, para ser usado como desculpa quando não fez um trabalho e precisa entregar',
         'O Invalid File Creator é uma ferramenta útil para criar arquivos inválidos e corrompidos de qualquer tamanho ou extensão. Esta aplicação é ideal para situações em que você precisa entregar um trabalho, mas não o fez, e precisa de uma desculpa plausível. Basta selecionar o tamanho e a extensão do arquivo que você precisa, e o Invalid File Creator criará um arquivo corrompido que não pode ser aberto ou lido corretamente. Com isso, você terá uma desculpa convincente para atrasos ou trabalhos não entregues. Nunca mais se preocupe com prazos apertados com o Invalid File Creator.',
         'apks/Invalid File Creator.apk',
-        'http://bresodev.free.nf/InvalidFileCreator'
+        'https://bresodev.github.io/redirecionador_apk/InvaliFileCreator.html'
     ],
     [
         'Mini Font Converter',
@@ -321,7 +319,7 @@ var apks = [
         'Sistema que você pode criar seu email personalizado com qualquer nome e domínio',
         'Crie seu próprio endereço de e-mail personalizado com o My Fake MailBox. Escolha um nome único e um domínio customizado, como "seunome@seudomínio.com". Envie e-mails para outros usuários do aplicativo e compartilhe mensagens e arquivos. Lembre-se, não é possível enviar e-mails reais, apenas dentro da rede do aplicativo. Experimente agora e comece a se comunicar de forma divertida e personalizada!',
         'apks/FakeMailBox.apk',
-		'http://bresodev.free.nf/EmailBox/login.php'
+		'https://bresodev.github.io/redirecionador_apk/EmailBox.html'
     ],
     [
         'Confessionario',
@@ -329,7 +327,7 @@ var apks = [
         'Site para fazer confissões de modo anonimo',
         'Liberte-se de suas preocupações e compartilhe suas confissões de forma anônima com o Confessionário. Este site seguro e acolhedor oferece um espaço onde você pode expressar seus pensamentos, sentimentos e segredos sem revelar sua identidade. Seja para desabafar sobre problemas pessoais, compartilhar pensamentos íntimos ou simplesmente buscar conforto na comunidade, o Confessionário está aqui para oferecer apoio e compreensão. Com total anonimato e um ambiente livre de julgamentos, você pode encontrar alívio ao compartilhar suas confissões com outros usuários que podem se identificar com suas experiências. Experimente o Confessionário hoje e sinta o peso sendo aliviado de seus ombros enquanto você compartilha suas confissões de maneira segura e discreta.',
         'apks/Confessionario.apk',
-        'http://bresodev.free.nf/Confessionario/'
+        'https://bresodev.github.io/redirecionador_apk/Confessionario.html'
     ],
     [
         'BCoin',
@@ -361,7 +359,7 @@ var apks = [
         'Chatbot que simula um namorado ou uma namorada virtual',
         'CrushAI é um chatbot que simula um namorado ou uma namorada, oferecendo conversas realistas e envolventes. Ideal para quem busca companhia virtual, o CrushAI proporciona interações afetuosas e personalizadas, criando uma experiência de relacionamento única e acolhedora. Experimente o CrushAI e desfrute da companhia de um parceiro(a) virtual sempre disponível para conversar.',
         'apks/CrushAI.apk',//apks/.apk
-        'vazio'
+        'https://bresodev.github.io/redirecionador_apk/CrushIA.html'
     ],
     [
         'KeyGuard',
@@ -380,19 +378,19 @@ var apks = [
         'https://bresodev.github.io/Pow/'//site
     ],
     [
-        '',//nome do projeto
-        '',//foto
-        '',//mini descrição
-        '',//descrição completa
-        'vazio',//apks/.apk
+        'MusicaIA',//nome do projeto
+        'img/musicaIA 1.0.png',//foto
+        'Crie letras e artes musicais com a ajuda da inteligência artificial.',//mini descrição
+        'O musicaIA é um aplicativo inovador que utiliza inteligência artificial para transformar ideias em composições musicais. Basta inserir um tema, escolher o gênero musical e citar inspirações, e o app gera automaticamente uma letra de música coerente, criativa e adaptada ao estilo escolhido. Além disso, o musicaIA cria uma arte visual personalizada para acompanhar a música, ideal para capas de álbuns, posts em redes sociais ou divulgação digital. Feito para músicos, compositores iniciantes e criadores de conteúdo, o app busca eliminar bloqueios criativos e acelerar o processo de produção. Com uma interface intuitiva e recursos avançados, o musicaIA combina criatividade humana com o poder da IA para trazer mais arte ao mundo.',//descrição completa
+        'apks/musicaIA 1.0.apk',//apks/.apk
         'vazio'//site
     ],
     [
-        '',//nome do projeto
-        '',//foto
-        '',//mini descrição
-        '',//descrição completa
-        'vazio',//apks/.apk
+        'AprendIA',//nome do projeto
+        'img/aprendIA 1.0.png',//foto
+        'Teste seus conhecimentos com perguntas geradas por IA que se adaptam ao seu nível.',//mini descrição
+        'O aprendIA é uma plataforma inteligente de aprendizado que transforma qualquer área de conhecimento em um desafio interativo. Basta o usuário escolher a área e o tema desejado, e a inteligência artificial gera perguntas personalizadas no formato de flipcards — fáceis de usar e ideais para estudar de forma dinâmica. A grande inovação está no sistema adaptativo: conforme o usuário acerta ou erra, o app ajusta automaticamente o nível de dificuldade, promovendo uma curva de aprendizado eficiente e motivadora.Ideal para estudantes, concurseiros, autodidatas ou qualquer pessoa que deseje aprender de forma prática e divertida. O aprendIA transforma o estudo em um jogo com inteligência.',//descrição completa
+        'apks/aprendIA 1.0.apk',//apks/.apk
         'vazio'//site
     ],
     [

@@ -1,11 +1,29 @@
 Appstore: https://bresodev.github.io/BresoDev-App-Store/
 
 
+
+<details>
+<summary><b>AprendIA</b></summary>
+<br>
+<i>Teste seus conhecimentos com perguntas geradas por IA que se adaptam ao seu nível.</i><br><br>
+<br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/aprendIA 1.0.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/aprendIA 1.0.apk">Download do APK</a>
+<br>
+</details>
+
 <details>
 <summary><b>BCoin</b></summary>
 <br>
 <i>Aplicativo intuitivo para facilitar a compra e venda de BCoins</i><br><br>
 <br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/bcoin.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/bcoin.apk">Download do APK</a>
+<br>
+</details>
+
+<details>
+<summary><b>BackTracks</b></summary>
+<br>
+<i>Aplicativo com um acervo de músicas de rock sem faixas de guitarra, para que guitarrista possam tocar junto com a música.</i><br><br>
+<br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/BackTracks.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/BackTracks.apk">Download do APK</a>
+<br><a href="https://bresodev.github.io/BackingTracks/" target="_blank">Acessar Site</a>
 <br>
 </details>
 
@@ -63,11 +81,19 @@ Appstore: https://bresodev.github.io/BresoDev-App-Store/
 </details>
 
 <details>
+<summary><b>Cocoladora</b></summary>
+<br>
+<i>Descubra quanto você lucra no trono com base no seu salário por hora.</i><br><br>
+<br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/Cocoladora 1.0.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/Cocoladora 1.0.apk">Download do APK</a>
+<br>
+</details>
+
+<details>
 <summary><b>Confessionario</b></summary>
 <br>
 <i>Site para fazer confissões de modo anonimo</i><br><br>
 <br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/Confessionario.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/Confessionario.apk">Download do APK</a>
-<br><a href="http://bresodev.free.nf/Confessionario/" target="_blank">Acessar Site</a>
+<br><a href="https://bresodev.github.io/redirecionador_apk/Confessionario.html" target="_blank">Acessar Site</a>
 <br>
 </details>
 
@@ -76,6 +102,7 @@ Appstore: https://bresodev.github.io/BresoDev-App-Store/
 <br>
 <i>Chatbot que simula um namorado ou uma namorada virtual</i><br><br>
 <br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/CrushAI.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/CrushAI.apk">Download do APK</a>
+<br><a href="https://bresodev.github.io/redirecionador_apk/CrushIA.html" target="_blank">Acessar Site</a>
 <br>
 </details>
 
@@ -93,7 +120,7 @@ Appstore: https://bresodev.github.io/BresoDev-App-Store/
 <br>
 <i>Sistema que você pode criar seu email personalizado com qualquer nome e domínio</i><br><br>
 <br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/FakeMailBox.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/FakeMailBox.apk">Download do APK</a>
-<br><a href="http://bresodev.free.nf/EmailBox/login.php" target="_blank">Acessar Site</a>
+<br><a href="https://bresodev.github.io/redirecionador_apk/EmailBox.html" target="_blank">Acessar Site</a>
 <br>
 </details>
 
@@ -102,7 +129,7 @@ Appstore: https://bresodev.github.io/BresoDev-App-Store/
 <br>
 <i>Fórum destinado a alunos de Ciências da Computação da escola Cruzeiro do Sul</i><br><br>
 <br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/Forum CDS.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/Forum CDS.apk">Download do APK</a>
-<br><a href="http://bresodev.free.nf/CDSEAD/" target="_blank">Acessar Site</a>
+<br><a href="https://bresodev.github.io/redirecionador_apk/ForumCDS.html" target="_blank">Acessar Site</a>
 <br>
 </details>
 
@@ -120,7 +147,7 @@ Appstore: https://bresodev.github.io/BresoDev-App-Store/
 <br>
 <i>Cria arquivos inválidos e corrompidos de qualquer tamanho ou extensão, para ser usado como desculpa quando não fez um trabalho e precisa entregar</i><br><br>
 <br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/Invalid File Creator.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/Invalid File Creator.apk">Download do APK</a>
-<br><a href="http://bresodev.free.nf/InvalidFileCreator" target="_blank">Acessar Site</a>
+<br><a href="https://bresodev.github.io/redirecionador_apk/InvaliFileCreator.html" target="_blank">Acessar Site</a>
 <br>
 </details>
 
@@ -221,6 +248,22 @@ Appstore: https://bresodev.github.io/BresoDev-App-Store/
 </details>
 
 <details>
+<summary><b>Mod Source Cripto</b></summary>
+<br>
+<i>Obfuscador de source codes para mods para GTAV e RDR2, criados usando C++</i><br><br>
+<br><a href="https://bresodev.github.io/RockstarModCripto" target="_blank">Acessar Site</a>
+<br>
+</details>
+
+<details>
+<summary><b>MusicaIA</b></summary>
+<br>
+<i>Crie letras e artes musicais com a ajuda da inteligência artificial.</i><br><br>
+<br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/musicaIA 1.0.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/musicaIA 1.0.apk">Download do APK</a>
+<br>
+</details>
+
+<details>
 <summary><b>Nightmare Game</b></summary>
 <br>
 <i>Jogo de terror, onde voce assume o papel de um vigia noturno em seu nomo emprego.</i><br><br>
@@ -243,7 +286,16 @@ Appstore: https://bresodev.github.io/BresoDev-App-Store/
 <br>
 <i>Aplicativo semelhante ao Pastebin, para hospedar e compartilhar textos diversos</i><br><br>
 <br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/PasteBoot.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/PasteBoot.apk">Download do APK</a>
-<br><a href="http://bresodev.free.nf/Pasteboot/" target="_blank">Acessar Site</a>
+<br><a href="https://bresodev.github.io/redirecionador_apk/PasteBot.html" target="_blank">Acessar Site</a>
+<br>
+</details>
+
+<details>
+<summary><b>Pow</b></summary>
+<br>
+<i>Cuide do seu próprio bichinho virtual com o Pow!</i><br><br>
+<br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/Pow.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/Pow.apk">Download do APK</a>
+<br><a href="https://bresodev.github.io/Pow/" target="_blank">Acessar Site</a>
 <br>
 </details>
 
@@ -270,7 +322,7 @@ Appstore: https://bresodev.github.io/BresoDev-App-Store/
 <br>
 <i>Aplicativo de conversas/chat entre usuarios</i><br><br>
 <br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/SpeakUp.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/SpeakUp.apk">Download do APK</a>
-<br><a href="http://speakup.free.nf/" target="_blank">Acessar Site</a>
+<br><a href="https://bresodev.github.io/redirecionador_apk/SpeakUp.html" target="_blank">Acessar Site</a>
 <br>
 </details>
 
@@ -323,15 +375,5 @@ Appstore: https://bresodev.github.io/BresoDev-App-Store/
 <i>Joguinho de cassino caça níquel, onde você pode jogar sem usar dinheiro real</i><br><br>
 <br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/WhiteJack.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/WhiteJack.apk">Download do APK</a>
 <br><a href="https://bresodev.github.io/Roleta-Cassino/" target="_blank">Acessar Site</a>
-<br>
-</details>
-
-	
-<details>
-<summary><b>Pow</b></summary>
-<br>
-<i>Cuide do seu próprio bichinho virtual com o Pow!</i><br><br>
-<br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/Pow.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/Pow.apk">Download do APK</a>
-<br><a href="https://bresodev.github.io/Pow/" target="_blank">Acessar Site</a>
 <br>
 </details>
