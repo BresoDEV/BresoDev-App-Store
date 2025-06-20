@@ -1,146 +1,246 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Breso AppStore</title>
-      <link rel="stylesheet" href="css.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja de APKs</title>
+<script src="apks.js"></script>
+  <style>
+    body {
+      margin: 0;
+      background-color: #121212;
+      color: #ffffff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    header {
+      background-color: #1f1f1f;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 1px solid #333;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+      color: #00bcd4;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .app-card {
+      background-color: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .app-card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 10px #00bcd4;
+    }
+
+    .app-icon {
+      width: 80px;
+      height: 80px;
+      border-radius: 15px;
+      margin-bottom: 10px;
+    }
+
+    .app-name {
+      font-size: 1.2em;
+      font-weight: bold;
+      margin: 10px 0 5px;
+    }
+
+    .app-desc {
+      font-size: 0.95em;
+      color: #cccccc;
+    }
+
+    /* MODAL */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 10;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal-content {
+      background-color: #1e1e1e;
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 400px;
+      text-align: center;
+      position: relative;
+    }
+
+    .modal-content img {
+      width: 100px;
+      height: 100px;
+      border-radius: 20px;
+      margin-bottom: 15px;
+    }
+
+    .modal-content h2 {
+      color: #00bcd4;
+      margin-bottom: 10px;
+    }
+
+    .modal-content p {
+      color: #ccc;
+      font-size: 1em;
+      margin-bottom: 20px;
+    }
+
+    .modal-buttons a {
+      display: inline-block;
+      margin: 5px 10px;
+      padding: 10px 16px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #000;
+      background-color: #00bcd4;
+    }
+
+    .modal-buttons a:hover {
+      background-color: #0097a7;
+    }
+
+    .close-btn {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      color: #aaa;
+      font-size: 1.5em;
+      cursor: pointer;
+    }
+
+    .close-btn:hover {
+      color: #fff;
+    }
+  </style>
 </head>
 
-<div class="ct" id="ct">
-      <center>
-            <h2>BresoDEV AppStore</h2>
-      </center>
-      <hr>
-</div>
+<body>
+  <header>
+    <h1>Loja de APKs</h1>
+  </header>
+
+  <main class="container" id="container">
+
+
+  </main>
+  <br><br><br><br>
+
+  <!-- Modal -->
+  <div id="appModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="fecharModal()">×</span>
+      <img id="modalIcon" src="" alt="Ícone do App">
+      <h2 id="modalTitle">Nome do App</h2>
+      <p id="modalDesc">Descrição detalhada...</p>
+      <div class="modal-buttons">
+        <a id="modalSite" href="#" target="_blank">Acessar Site</a>
+        <a id="modalDownload" href="#" target="_blank">Baixar APK</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script>
+
+ 
+
+
+    apks.forEach(element => {
+
+      if (element[0] !== '') {
+        document.getElementById("container").innerHTML += `
+        
+        <div class="app-card"
+          onclick="abrirModal('${element[0]}', '${element[3]}', '${element[1]}', '${element[5]}', '${element[4]}')">
+          <img src="${element[1]}" alt="App 1" class="app-icon">
+          <div class="app-name">${element[0]}</div>
+          <div class="app-desc">${element[2]}</div>
+        </div>
+
+        `;
+      }
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    function abrirModal(nome, descricao, icone, linkSite, linkApk) {
+      document.getElementById("modalTitle").innerText = nome;
+      document.getElementById("modalDesc").innerText = descricao;
+      document.getElementById("modalIcon").src = icone;
+
+
+
+      if (linkSite !== 'vazio') {
+        document.getElementById("modalSite").style.display = 'block';
+        document.getElementById("modalSite").href = linkSite;
+      }
+      else {
+        document.getElementById("modalSite").style.display = 'none';
+      }
+
+      if (linkApk !== 'vazio') {
+        document.getElementById("modalDownload").style.display = 'block';
+        document.getElementById("modalDownload").href = linkApk;
+      }
+      else {
+        document.getElementById("modalDownload").style.display = 'none';
+      }
+
+      document.getElementById("appModal").style.display = "flex";
+    }
+
+    function fecharModal() {
+      document.getElementById("appModal").style.display = "none";
+    }
+
+    // Fecha modal ao clicar fora
+    window.onclick = function (event) {
+      const modal = document.getElementById("appModal");
+      if (event.target === modal) {
+        fecharModal();
+      }
+    };
+  </script>
 </body>
-<script src="apks.js"></script>
-
-<script>
-
-apks.sort()
-
-      var Faltafoto = []
-      var Faltaminidesc = []
-      var Faltadescriçãodetalhada = []
-      var FaltaAPK = []
-      var Faltasite = []
-
-      apks.forEach(element => {
-
-            if (element[0] !== '') {
-
-                  if (element[1] === '') {
-                        Faltafoto.push(element[0])
-                  }
-                  if (element[2] === '') {
-                        Faltaminidesc.push(element[0])
-                  }
-                  if (element[3] === '') {
-                        Faltadescriçãodetalhada.push(element[0])
-                  }
-                  if (element[4] === '') {
-                        FaltaAPK.push(element[0])
-                  }
-                  if (element[5] === '') {
-                        Faltasite.push(element[0])
-                  }
-
-                  if (element[1] !== '' && element[2] !== '' && element[3] !== '') {
-
-                        if (element[4] !== 'vazio' || element[5] !== 'vazio') {
-
-                              if(element[5] !== '' && element[4] !== ''){
-                                    document.getElementById('ct').innerHTML += `
-                              <div class="app" onclick="window.location.href='download.html?apk=${element[0]}'">
-                                  <img src="${element[1]}" alt="">
-                                  <div class="app-info">
-                                      <h3>${element[0]}</h3>
-                                      <p>${element[2]}</p>
-                                  </div>
-                              </div>
-                              `;
-                              }
-                              
-                        }
-                  }
-
-
-
-
-            }
-
-      });
-
-
-
-
-      /*
-      var Faltafoto =[]
-      var Faltaminidesc =[]
-      var Faltadescriçãodetalhada =[]
-      var FaltaAPK =[]
-      var Faltasite =[]
-      */
-
-      //log de itens incompletos
-
-      var string_Faltafoto = 'Falta foto: \n'
-      var string_Faltaminidesc = 'Falta mini desc: \n'
-      var string_Faltadescriçãodetalhada = 'Falta descrição detalhada:\n'
-      var string_FaltaAPK = 'Falta APK: \n'
-      var string_Faltasite = 'Falta site: \n'
-
-      Faltafoto.forEach(element => {
-            string_Faltafoto += element + '\n'
-      });
-
-      Faltaminidesc.forEach(element => {
-            string_Faltaminidesc += element + '\n'
-      });
-
-      Faltadescriçãodetalhada.forEach(element => {
-            string_Faltadescriçãodetalhada += element + '\n'
-      });
-
-      FaltaAPK.forEach(element => {
-            string_FaltaAPK += element + '\n'
-      });
-
-      Faltasite.forEach(element => {
-            string_Faltasite += element + '\n'
-      });
-
-      //-------------------------------
-      if (Faltasite.length > 0) {
-            console.log(string_Faltafoto);
-            console.log('-----------------');
-      }
-      if (Faltaminidesc.length > 0) {
-            console.log(string_Faltaminidesc);
-            console.log('-----------------');
-      }
-      if (Faltadescriçãodetalhada.length > 0) {
-            console.log(string_Faltadescriçãodetalhada);
-            console.log('-----------------');
-      }
-      if (FaltaAPK.length > 0) {
-            console.log(string_FaltaAPK);
-            console.log('-----------------');
-      }
-      if (Faltasite.length > 0) {
-            console.log(string_Faltasite);
-      }
-
-
-
-
-
-
-
-
-</script>
 
 </html>

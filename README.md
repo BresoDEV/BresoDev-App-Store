@@ -7,6 +7,7 @@ Appstore: https://bresodev.github.io/BresoDev-App-Store/
 <br>
 <i>Teste seus conhecimentos com perguntas geradas por IA que se adaptam ao seu nível.</i><br><br>
 <br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/aprendIA 1.0.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/aprendIA 1.0.apk">Download do APK</a>
+<br><a href="https://bresodev.github.io/aprendIA/" target="_blank">Acessar Site</a>
 <br>
 </details>
 
@@ -147,7 +148,15 @@ Appstore: https://bresodev.github.io/BresoDev-App-Store/
 <br>
 <i>Cria arquivos inválidos e corrompidos de qualquer tamanho ou extensão, para ser usado como desculpa quando não fez um trabalho e precisa entregar</i><br><br>
 <br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/Invalid File Creator.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/Invalid File Creator.apk">Download do APK</a>
-<br><a href="https://bresodev.github.io/redirecionador_apk/InvaliFileCreator.html" target="_blank">Acessar Site</a>
+<br><a href="https://bresodev.github.io/Invalid-File-Creator/" target="_blank">Acessar Site</a>
+<br>
+</details>
+
+<details>
+<summary><b>JS String Obfs</b></summary>
+<br>
+<i>Obfusque e proteja strings JavaScript com facilidade e rapidez.</i><br><br>
+<br><a href="https://bresodev.github.io/JS-String-Obfuscator/" target="_blank">Acessar Site</a>
 <br>
 </details>
 
@@ -260,6 +269,7 @@ Appstore: https://bresodev.github.io/BresoDev-App-Store/
 <br>
 <i>Crie letras e artes musicais com a ajuda da inteligência artificial.</i><br><br>
 <br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/musicaIA 1.0.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/musicaIA 1.0.apk">Download do APK</a>
+<br><a href="https://bresodev.github.io/musicAI" target="_blank">Acessar Site</a>
 <br>
 </details>
 
