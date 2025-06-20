@@ -394,12 +394,12 @@ var apks = [
         'https://bresodev.github.io/aprendIA/'//site
     ],
     [
-        '',//nome do projeto
-        '',//foto
-        '',//mini descrição
-        '',//descrição completa
+        'JS String Obfs',//nome do projeto
+        'JS String Obfs.png',//foto
+        'Obfusque e proteja strings JavaScript com facilidade e rapidez.',//mini descrição
+        'O JS String Obfs é um app desenvolvido para desenvolvedores que desejam proteger ou ocultar strings em seus projetos JavaScript. Ele aplica técnicas de ofuscação e criptografia para transformar strings comuns em versões ilegíveis ao olho humano, dificultando engenharia reversa e aumentando a segurança do código.Ideal para esconder URLs, chaves, mensagens sensíveis ou lógicas de negócios, o app oferece uma interface simples para colar, transformar e copiar o conteúdo ofuscado instantaneamente.Suporte a diversos métodos de codificação (Base64, XOR, Unicode, etc.), com opções de compressão e decodificação automática.Com o JS String Obfs, proteger strings no front-end se torna rápido, prático e eficaz.',//descrição completa
         'vazio',//apks/.apk
-        'vazio'//site
+        'https://bresodev.github.io/JS-String-Obfuscator/'//site
     ],
     [
         '',//nome do projeto
