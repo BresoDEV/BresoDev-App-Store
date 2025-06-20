@@ -383,7 +383,7 @@ var apks = [
         'Crie letras e artes musicais com a ajuda da inteligência artificial.',//mini descrição
         'O musicaIA é um aplicativo inovador que utiliza inteligência artificial para transformar ideias em composições musicais. Basta inserir um tema, escolher o gênero musical e citar inspirações, e o app gera automaticamente uma letra de música coerente, criativa e adaptada ao estilo escolhido. Além disso, o musicaIA cria uma arte visual personalizada para acompanhar a música, ideal para capas de álbuns, posts em redes sociais ou divulgação digital. Feito para músicos, compositores iniciantes e criadores de conteúdo, o app busca eliminar bloqueios criativos e acelerar o processo de produção. Com uma interface intuitiva e recursos avançados, o musicaIA combina criatividade humana com o poder da IA para trazer mais arte ao mundo.',//descrição completa
         'apks/musicaIA 1.0.apk',//apks/.apk
-        'vazio'//site
+        'https://bresodev.github.io/musicAI'//site
     ],
     [
         'AprendIA',//nome do projeto
@@ -391,7 +391,7 @@ var apks = [
         'Teste seus conhecimentos com perguntas geradas por IA que se adaptam ao seu nível.',//mini descrição
         'O aprendIA é uma plataforma inteligente de aprendizado que transforma qualquer área de conhecimento em um desafio interativo. Basta o usuário escolher a área e o tema desejado, e a inteligência artificial gera perguntas personalizadas no formato de flipcards — fáceis de usar e ideais para estudar de forma dinâmica. A grande inovação está no sistema adaptativo: conforme o usuário acerta ou erra, o app ajusta automaticamente o nível de dificuldade, promovendo uma curva de aprendizado eficiente e motivadora.Ideal para estudantes, concurseiros, autodidatas ou qualquer pessoa que deseje aprender de forma prática e divertida. O aprendIA transforma o estudo em um jogo com inteligência.',//descrição completa
         'apks/aprendIA 1.0.apk',//apks/.apk
-        'vazio'//site
+        'https://bresodev.github.io/aprendIA/'//site
     ],
     [
         '',//nome do projeto
