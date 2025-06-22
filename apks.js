@@ -1,7 +1,6 @@
 /*
     
-    servidor de email fake
-    [2]
+     [2]
     nome = "BarCode Generator"
     mini-descricao = "Conversor de texto para codigo de barras"
     descricao = "Transforme texto em códigos de barras facilmente com o BarCode Generator. Este aplicativo intuitivo oferece uma maneira simples de converter qualquer texto em códigos de barras padrão, como o código de barras EAN-13. Basta inserir o texto desejado e o BarCode Generator criará instantaneamente o código de barras correspondente. Você pode então salvar o código de barras gerado como uma imagem para uso em etiquetas, documentos, produtos e muito mais. Experimente agora e simplifique o processo de criação de códigos de barras com o BarCode Generator."
@@ -296,14 +295,15 @@
               'Transforme suas frases em caracteres menores que a fonte normal com o Mini Font Creator. Este aplicativo é ideal para criar texto em miniatura, perfeito para usar em redes sociais, mensagens de texto e muito mais. Basta digitar sua frase e o Mini Font Creator irá converter para uma versão menor, economizando espaço e adicionando um toque único ao seu texto. Experimente agora e dê um estilo único às suas mensagens com o Mini Font Creator.',
               'apks/Mini Font Converter.apk',
               'https://bresodev.github.io/MiniFont-Creator/'
-            ],
+            ], 
+            
             [
-              'Show do Milhão',
-              'img/show.jpeg',
-              'Jogo semelhante ao programa, com perguntas e respostas',
-              'Teste seus conhecimentos com o Show do Milhão! Responda perguntas de múltipla escolha em diferentes categorias para ganhar prêmios virtuais. Use ajuda dos "universitários" ou elimine opções com o "50/50" para chegar mais longe. Divirta-se e aprenda com este emocionante jogo!',
-              'apks/Show do Milhão.apk',
-              'https://bresodev.github.io/Show-do-Milhao/'
+              'Fake MailBox',
+              'img/fmb.png',
+              'Sistema que você pode criar seu email personalizado com qualquer nome e domínio',
+              'Crie seu próprio endereço de e-mail personalizado com o My Fake MailBox. Escolha um nome único e um domínio customizado, como seunome@seudomínio.com. Envie e-mails para outros usuários do aplicativo e compartilhe mensagens e arquivos. Lembre-se, não é possível enviar e-mails reais, apenas dentro da rede do aplicativo. Experimente agora e comece a se comunicar de forma divertida e personalizada!',
+              'apks/FakeMailBox.apk',
+              'https://bresodev.github.io/redirecionador_apk/EmailBox.html'
             ],
             [
               'WhiteJack',
@@ -312,14 +312,6 @@
               'Divirta-se com o WhiteJack, um jogo de cassino caça-níquel onde você pode jogar sem usar dinheiro real. Gire os rolos e teste sua sorte para conseguir combinações vencedoras. Experimente a emoção do cassino sem gastar dinheiro de verdade!',
               'apks/WhiteJack.apk',
               'https://bresodev.github.io/Roleta-Cassino/'
-            ],
-            [
-              'Fake MailBox',
-              'img/fmb.png',
-              'Sistema que você pode criar seu email personalizado com qualquer nome e domínio',
-              'Crie seu próprio endereço de e-mail personalizado com o My Fake MailBox. Escolha um nome único e um domínio customizado, como "seunome@seudomínio.com". Envie e-mails para outros usuários do aplicativo e compartilhe mensagens e arquivos. Lembre-se, não é possível enviar e-mails reais, apenas dentro da rede do aplicativo. Experimente agora e comece a se comunicar de forma divertida e personalizada!',
-              'apks/FakeMailBox.apk',
-              'https://bresodev.github.io/redirecionador_apk/EmailBox.html'
             ],
             [
               'Confessionario',
