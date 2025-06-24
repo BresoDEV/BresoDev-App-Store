@@ -345,14 +345,14 @@
               'apks/marketlist.apk',//apks/.apk
               'https://bresodev.github.io/MarketList/'
             ],
-            [
-              'CrushAI',
-              'img/crushai.jpg',
-              'Chatbot que simula um namorado ou uma namorada virtual',
-              'CrushAI é um chatbot que simula um namorado ou uma namorada, oferecendo conversas realistas e envolventes. Ideal para quem busca companhia virtual, o CrushAI proporciona interações afetuosas e personalizadas, criando uma experiência de relacionamento única e acolhedora. Experimente o CrushAI e desfrute da companhia de um parceiro(a) virtual sempre disponível para conversar.',
-              'apks/CrushAI.apk',//apks/.apk
-              'https://bresodev.github.io/redirecionador_apk/CrushIA.html'
-            ],
+            //[
+            //  'CrushAI',
+            //  'img/crushai.jpg',
+            //  'Chatbot que simula um namorado ou uma namorada virtual',
+            //  'CrushAI é um chatbot que simula um namorado ou uma namorada, oferecendo conversas realistas e envolventes. Ideal para quem busca companhia virtual, o CrushAI proporciona interações afetuosas e personalizadas, criando uma experiência de relacionamento única e acolhedora. Experimente o CrushAI e desfrute da companhia de um parceiro(a) virtual sempre disponível para conversar.',
+            //  'apks/CrushAI.apk',//apks/.apk
+            //  'https://bresodev.github.io/redirecionador_apk/CrushIA.html'
+            //],
             [
               'KeyGuard',
               'img/keyguard.jpg',
