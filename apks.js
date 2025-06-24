@@ -335,7 +335,7 @@
               'Aplicativo  para cadastrar sintomas e os remédios correspondentes',
               'O Medical List é um aplicativo essencial para cadastrar sintomas e os remédios correspondentes, ideal para quem não tem conhecimento médico ou tende a esquecer quais medicamentos administrar em emergências. Simples e intuitivo, o Medical List ajuda você a registrar sintomas e associá-los aos tratamentos adequados, garantindo que você tenha as informações necessárias sempre à mão em momentos críticos. Além disso, voce pode compartilhar sua lista com amigos e carregar listas de outras pessoas também. ',
               'apks/medicallist.apk',//apks/.apk
-              'vazio'
+              'https://bresodev.github.io/MedicalList/'
             ],
             [
               'Market List',
@@ -343,7 +343,7 @@
               'Aplicativo ideal para criar e gerenciar listas de compras',
               'Organize suas compras com o MarketList, o aplicativo ideal para criar e gerenciar listas de compras. Adicione e exclua itens facilmente, salve listas para reutilização futura e mantenha suas compras sempre organizadas. Com uma interface simples e intuitiva, o MarketList torna o planejamento de suas compras mais eficiente e prático. Além disso, voce pode compartilhar sua lista com amigos e carregar listas de outras pessoas também. ',
               'apks/marketlist.apk',//apks/.apk
-              'vazio'
+              'https://bresodev.github.io/MarketList/'
             ],
             [
               'CrushAI',
