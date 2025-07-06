@@ -55,6 +55,14 @@
               'vazio'
             ],
             [
+              'Carteira WEB',
+              'img/Carteira WEB.png',
+              'Armazene seus documentos pessoais com segurança, direto no navegador.',
+              'O Carteira WEB é uma aplicação web pensada para quem busca praticidade e privacidade. Com ela, você pode armazenar seus documentos pessoais — como RG, CPF, CNH, carteirinha de plano de saúde, entre outros — de forma criptografada e totalmente local, sem depender de servidores externos ou cadastros. Os dados são protegidos diretamente no navegador com criptografia de ponta, garantindo que apenas você tenha acesso às suas informações. Tudo fica salvo localmente, com suporte a backups e senha de acesso. Ideal para quem quer acesso rápido e seguro aos documentos em qualquer computador ou celular, sem comprometer a privacidade.O Carteira WEB é leve, simples de usar, e foi feito para proteger aquilo que é só seu.',
+              'vazio',
+              'https://bresodev.github.io/webCarteira/'
+            ],
+            [
               'BackTracks',
               'img/BackTracks.jpg',
               'Aplicativo com um acervo de músicas de rock sem faixas de guitarra, para que guitarrista possam tocar junto com a música.',
