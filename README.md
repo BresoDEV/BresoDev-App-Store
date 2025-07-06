@@ -73,6 +73,14 @@ Appstore: https://bresodev.github.io/BresoDev-App-Store/
 </details>
 
 <details>
+<summary><b>Carteira WEB</b></summary>
+<br>
+<i>Armazene seus documentos pessoais com segurança, direto no navegador.</i><br><br>
+<br><a href="https://bresodev.github.io/webCarteira/" target="_blank">Acessar Site</a>
+<br>
+</details>
+
+<details>
 <summary><b>Chatbot Calculadora</b></summary>
 <br>
 <i>Bot que faz contas basicas de matematica</i><br><br>
@@ -95,15 +103,6 @@ Appstore: https://bresodev.github.io/BresoDev-App-Store/
 <i>Site para fazer confissões de modo anonimo</i><br><br>
 <br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/Confessionario.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/Confessionario.apk">Download do APK</a>
 <br><a href="https://bresodev.github.io/redirecionador_apk/Confessionario.html" target="_blank">Acessar Site</a>
-<br>
-</details>
-
-<details>
-<summary><b>CrushAI</b></summary>
-<br>
-<i>Chatbot que simula um namorado ou uma namorada virtual</i><br><br>
-<br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/CrushAI.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/CrushAI.apk">Download do APK</a>
-<br><a href="https://bresodev.github.io/redirecionador_apk/CrushIA.html" target="_blank">Acessar Site</a>
 <br>
 </details>
 
@@ -227,6 +226,7 @@ Appstore: https://bresodev.github.io/BresoDev-App-Store/
 <br>
 <i>Aplicativo ideal para criar e gerenciar listas de compras</i><br><br>
 <br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/marketlist.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/marketlist.apk">Download do APK</a>
+<br><a href="https://bresodev.github.io/MarketList/" target="_blank">Acessar Site</a>
 <br>
 </details>
 
@@ -235,6 +235,7 @@ Appstore: https://bresodev.github.io/BresoDev-App-Store/
 <br>
 <i>Aplicativo para cadastrar sintomas e os remédios correspondentes</i><br><br>
 <br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/medicallist.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/medicallist.apk">Download do APK</a>
+<br><a href="https://bresodev.github.io/MedicalList/" target="_blank">Acessar Site</a>
 <br>
 </details>
 
@@ -315,15 +316,6 @@ Appstore: https://bresodev.github.io/BresoDev-App-Store/
 <i>Gerador e conversor de string ou listas para hash, usados em scripts de jogos da Rockstar Games (GTAV,RDR2,etc...)</i><br><br>
 <br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/Rockstar Games Hasher.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/Rockstar Games Hasher.apk">Download do APK</a>
 <br><a href="https://bresodev.github.io/Hash-Generator-Javascript/" target="_blank">Acessar Site</a>
-<br>
-</details>
-
-<details>
-<summary><b>Show do Milhão</b></summary>
-<br>
-<i>Jogo semelhante ao programa, com perguntas e respostas</i><br><br>
-<br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/Show do Milhão.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/Show do Milhão.apk">Download do APK</a>
-<br><a href="https://bresodev.github.io/Show-do-Milhao/" target="_blank">Acessar Site</a>
 <br>
 </details>
 
