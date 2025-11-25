@@ -3,6 +3,14 @@ Appstore: https://bresodev.github.io/BresoDev-App-Store/
 
 
 <details>
+<summary><b>Alarme</b></summary>
+<br>
+<i>Um temporizador simples que cria alarmes após um tempo definido, ideal para estudos e tarefas.</i><br><br>
+<br><a href="https://bresodev.github.io/webtest/Despertador/" target="_blank">Acessar Site</a>
+<br>
+</details>
+
+<details>
 <summary><b>AprendIA</b></summary>
 <br>
 <i>Teste seus conhecimentos com perguntas geradas por IA que se adaptam ao seu nível.</i><br><br>
@@ -130,6 +138,14 @@ Appstore: https://bresodev.github.io/BresoDev-App-Store/
 <i>Fórum destinado a alunos de Ciências da Computação da escola Cruzeiro do Sul</i><br><br>
 <br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/Forum CDS.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/Forum CDS.apk">Download do APK</a>
 <br><a href="https://bresodev.github.io/redirecionador_apk/ForumCDS.html" target="_blank">Acessar Site</a>
+<br>
+</details>
+
+<details>
+<summary><b>Glico+</b></summary>
+<br>
+<i>Ajuda pessoas com diabetes a registrarem e acompanharem seus níveis glicêmicos de forma simples e prática.</i><br><br>
+<br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/Glico+ 1.0.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/Glico+ 1.0.apk">Download do APK</a>
 <br>
 </details>
 
@@ -377,5 +393,13 @@ Appstore: https://bresodev.github.io/BresoDev-App-Store/
 <i>Joguinho de cassino caça níquel, onde você pode jogar sem usar dinheiro real</i><br><br>
 <br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/WhiteJack.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/WhiteJack.apk">Download do APK</a>
 <br><a href="https://bresodev.github.io/Roleta-Cassino/" target="_blank">Acessar Site</a>
+<br>
+</details>
+
+<details>
+<summary><b>pixME</b></summary>
+<br>
+<i>pixME gera QR Codes Pix instantâneos para facilitar pagamentos rápidos e seguros.</i><br><br>
+<br><a href="https://bresodev.github.io/webtest/pix/" target="_blank">Acessar Site</a>
 <br>
 </details>

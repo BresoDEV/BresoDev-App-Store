@@ -46,6 +46,35 @@
     */
 
         var apks = [
+            
+          
+            
+            [
+              'Alarme',
+              'img/Alarme.png',
+              'Um temporizador simples que cria alarmes após um tempo definido, ideal para estudos e tarefas.',
+              'Este aplicativo foi criado para quem precisa controlar o tempo de forma prática, configurando alarmes após um período determinado. Seja para estudar, descansar, cozinhar, treinar ou organizar rotinas, ele permite definir intervalos personalizados com apenas alguns toques. Sua interface direta e sem distrações facilita o uso no dia a dia, garantindo que o foco permaneça na atividade e não na configuração. O app toca um alarme claro ao final do tempo, ajudando o usuário a manter disciplina e acompanhar ciclos de produtividade, como técnicas de estudo ou pausas programadas. Ele também pode ser usado para lembretes rápidos, atividades temporizadas ou qualquer situação em que o tempo seja importante. Leve, intuitivo e sempre preciso, este temporizador é a ferramenta ideal para quem busca organização e controle sem complicação.',
+              'vazio',
+              'https://bresodev.github.io/webtest/Despertador/'
+            ],
+            
+            
+            [
+              'pixME',
+              'img/pixME.png',
+              'pixME gera QR Codes Pix instantâneos para facilitar pagamentos rápidos e seguros.',
+              'pixME é um aplicativo desenvolvido para quem precisa gerar QR Codes Pix de forma rápida, prática e confiável. Com uma interface direta, ele permite criar códigos prontos para pagamento em poucos segundos, sem complicação. Basta inserir os dados necessários e o app automaticamente gera o QR Code, ideal para vendas, cobranças, serviços ou uso pessoal. O aplicativo também oferece opções de copiar o código numérico e compartilhar facilmente com clientes ou contatos. Seu design leve e objetivo torna o processo de pagamentos muito mais simples, evitando erros manuais e agilizando o recebimento. Seja para empreendedores, autônomos ou qualquer pessoa que utiliza o Pix com frequência, o pixME é a ferramenta perfeita para tornar o dia a dia mais rápido, organizado e eficiente.',
+              'vazio',
+              'https://bresodev.github.io/webtest/pix/'
+            ],
+            [
+              'Glico+',
+              'img/glico.png',
+              'Ajuda pessoas com diabetes a registrarem e acompanharem seus níveis glicêmicos de forma simples e prática.',
+              'Glico+ é um aplicativo criado especialmente para pessoas com diabetes que precisam monitorar e registrar seus níveis de glicose ao longo do dia. Com uma interface simples e direta, ele permite que o usuário anote rapidamente cada medição, mantendo um histórico organizado e fácil de consultar. O app facilita o acompanhamento da evolução glicêmica, ajudando na identificação de padrões e variações importantes. Além das anotações, o usuário pode revisar registros passados, comparar dias e criar uma rotina de controle mais eficiente. Glico+ foi desenvolvido para tornar o processo de monitoramento mais leve e acessível, oferecendo um ambiente intuitivo para quem lida diariamente com a condição. Ideal tanto para quem está começando a se organizar quanto para quem busca uma ferramenta confiável, o Glico+ fortalece o autocuidado e contribui para uma vida mais equilibrada.',
+              'apks/Glico+ 1.0.apk',
+              'vazio'
+            ],
             [
               'Cocoladora',
               'img/Cocoladora.png',
