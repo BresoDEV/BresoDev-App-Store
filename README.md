@@ -37,6 +37,22 @@ Appstore: https://bresodev.github.io/BresoDev-App-Store/
 </details>
 
 <details>
+<summary><b>Barra de Favoritos</b></summary>
+<br>
+<i>Gerencie seus sites favoritos com uma interface personalizada e estilizada.</i><br><br>
+<br><a href="https://bresodev.github.io/barraFavoritos/" target="_blank">Acessar Site</a>
+<br>
+</details>
+
+<details>
+<summary><b>Blog</b></summary>
+<br>
+<i>Blog pessoal com compartilhamento de códigos em várias linguagens de programação.</i><br><br>
+<br><a href="https://bresodev.github.io/blog/" target="_blank">Acessar Site</a>
+<br>
+</details>
+
+<details>
 <summary><b>Breaking Bad</b></summary>
 <br>
 <i>Jogo baseado na série de tv</i><br><br>
@@ -59,6 +75,14 @@ Appstore: https://bresodev.github.io/BresoDev-App-Store/
 <i>Aplicativo inspirado no ChatGPT</i><br><br>
 <br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/BresoGPT.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/BresoGPT.apk">Download do APK</a>
 <br><a href="https://bresodev.github.io/GPT-Via-JSON/" target="_blank">Acessar Site</a>
+<br>
+</details>
+
+<details>
+<summary><b>C to LUA</b></summary>
+<br>
+<i>Converta códigos LUA automaticamente para C++ com facilidade.</i><br><br>
+<br><a href="https://bresodev.github.io/C_to_LUA/" target="_blank">Acessar Site</a>
 <br>
 </details>
 
@@ -133,6 +157,14 @@ Appstore: https://bresodev.github.io/BresoDev-App-Store/
 </details>
 
 <details>
+<summary><b>Fluxograma</b></summary>
+<br>
+<i>Crie e compartilhe fluxogramas de forma rápida e intuitiva.</i><br><br>
+<br><a href="https://bresodev.github.io/Fluxograma/" target="_blank">Acessar Site</a>
+<br>
+</details>
+
+<details>
 <summary><b>Forum CDS</b></summary>
 <br>
 <i>Fórum destinado a alunos de Ciências da Computação da escola Cruzeiro do Sul</i><br><br>
@@ -155,6 +187,14 @@ Appstore: https://bresodev.github.io/BresoDev-App-Store/
 <i>Obfuscador de codigo HTML</i><br><br>
 <br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/HTML Cripto.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/HTML Cripto.apk">Download do APK</a>
 <br><a href="https://bresodev.github.io/CriptoHTML/" target="_blank">Acessar Site</a>
+<br>
+</details>
+
+<details>
+<summary><b>IMG to CSS Web</b></summary>
+<br>
+<i>Converta imagens em código HTML e CSS com facilidade.</i><br><br>
+<br><a href="https://bresodev.github.io/IMG-to-CSS-Web" target="_blank">Acessar Site</a>
 <br>
 </details>
 
@@ -198,6 +238,14 @@ Appstore: https://bresodev.github.io/BresoDev-App-Store/
 <br>
 <i>Proteja suas senhas com segurança e conveniência usando o KeyGuard</i><br><br>
 <br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/KeyGuard.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/KeyGuard.apk">Download do APK</a>
+<br>
+</details>
+
+<details>
+<summary><b>LUA Obfuscator</b></summary>
+<br>
+<i>Obfuscador eficiente de códigos LUA para proteção e segurança.</i><br><br>
+<br><a href="https://bresodev.github.io/C_to_LUA/luaObfuscator.html" target="_blank">Acessar Site</a>
 <br>
 </details>
 
@@ -318,6 +366,22 @@ Appstore: https://bresodev.github.io/BresoDev-App-Store/
 </details>
 
 <details>
+<summary><b>Pix-me</b></summary>
+<br>
+<i>pixME gera QR Codes Pix instantâneos para facilitar pagamentos rápidos e seguros.</i><br><br>
+<br><a href="https://bresodev.github.io/webtest/pix/" target="_blank">Acessar Site</a>
+<br>
+</details>
+
+<details>
+<summary><b>Pixel Art Web</b></summary>
+<br>
+<i>Crie pixel art diretamente no seu navegador, sem complicação.</i><br><br>
+<br><a href="https://bresodev.github.io/PixelArtWeb" target="_blank">Acessar Site</a>
+<br>
+</details>
+
+<details>
 <summary><b>Pow</b></summary>
 <br>
 <i>Cuide do seu próprio bichinho virtual com o Pow!</i><br><br>
@@ -393,13 +457,5 @@ Appstore: https://bresodev.github.io/BresoDev-App-Store/
 <i>Joguinho de cassino caça níquel, onde você pode jogar sem usar dinheiro real</i><br><br>
 <br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/WhiteJack.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/WhiteJack.apk">Download do APK</a>
 <br><a href="https://bresodev.github.io/Roleta-Cassino/" target="_blank">Acessar Site</a>
-<br>
-</details>
-
-<details>
-<summary><b>pixME</b></summary>
-<br>
-<i>pixME gera QR Codes Pix instantâneos para facilitar pagamentos rápidos e seguros.</i><br><br>
-<br><a href="https://bresodev.github.io/webtest/pix/" target="_blank">Acessar Site</a>
 <br>
 </details>
