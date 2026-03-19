@@ -490,12 +490,12 @@
               'https://bresodev.github.io/JS-String-Obfuscator/'//site
             ],
             [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
+              'Teleprompt TV',//nome do projeto
+              'img/teleprompter.jpg',//foto
+              'Transforme seus textos em um teleprompter automático para leitura fluida e sem distrações.',//mini descrição
+              'O Teleprompt TV é uma aplicação leve e prática desenvolvida para facilitar a leitura de roteiros em tempo real. Com ele, você pode digitar ou colar qualquer texto e exibi-lo em formato de teleprompter, com rolagem automática na tela. Ideal para criadores de conteúdo, apresentadores, professores e profissionais que precisam manter o foco durante gravações, lives ou apresentações. A interface simples permite começar rapidamente, sem complicações ou configurações complexas. Você pode ajustar o ritmo da leitura de acordo com sua necessidade, garantindo mais naturalidade na fala. Evite pausas, esquecimentos e perda de linha durante suas apresentações. Seja para vídeos, palestras ou estudos, o Teleprompt TV oferece uma solução eficiente e intuitiva. Tudo isso em uma ferramenta leve, rápida e acessível.',//descrição completa
+              'apks/Teleprompt.apk',//apks/.apk
+              'https://bresodev.github.io/Teleprompt-TV'//site
             ],
             [
               '',//nome do projeto

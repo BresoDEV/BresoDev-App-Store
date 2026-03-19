@@ -417,6 +417,15 @@ Appstore: https://bresodev.github.io/BresoDev-App-Store/
 </details>
 
 <details>
+<summary><b>Teleprompt TV</b></summary>
+<br>
+<i>Transforme seus textos em um teleprompter automático para leitura fluida e sem distrações.</i><br><br>
+<br><a href="https://bresodev.github.io/BresoDEV-App-Store/apks/Teleprompt.apk" download="https://bresodev.github.io/BresoDEV-App-Store/apks/Teleprompt.apk">Download do APK</a>
+<br><a href="https://bresodev.github.io/Teleprompt-TV" target="_blank">Acessar Site</a>
+<br>
+</details>
+
+<details>
 <summary><b>Text Encriptor</b></summary>
 <br>
 <i>Encriptador e decriptador de textos</i><br><br>
