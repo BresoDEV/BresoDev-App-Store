@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>AppZone</title>
+        <title>BresoDEV AppStore</title>
         <link rel="stylesheet" href="css.css">
     </head>
     <body>
@@ -39,7 +39,6 @@
                                     placeholder="Buscar aplicativos..."
                                 >
                             </label>
-                            <button class="search-btn" id="btnBuscar">Buscar</button>
                         </div>
                     </div>
                     <div class="hero-visual" aria-hidden="true">
@@ -180,9 +179,7 @@
                     <!--
                       <button class="btn btn-primary" id="Download APK">Download Android</button>
                     <button class="btn btn-soft" id="Acessar Site">Download iOS</button>
-                    -->
-                    >
-                </div>
+                    --></div>
             </div>
         </div>
         <script src="apks.js"></script>
@@ -293,7 +290,7 @@
                             </label>
                             <button class="search-btn" id="btnBuscar">Buscar</button>
                             */
-             document.getElementById('btnBuscar').addEventListener('click',()=>{
+             document.getElementById('search-input').addEventListener('input',()=>{
 
                 carregarPorPalavra(document.getElementById('search-input').value)
 
@@ -303,7 +300,8 @@
                 document.getElementById('recomendados').innerHTML = ''
                 document.getElementById('Apps em Destaque').innerHTML = ''
                 document.getElementById('Ver Todos').innerHTML = ''
-                window.location.href = "#downloads"
+
+                //window.location.href = "#downloads"
              })              
 
           function carregarPorPalavra(busca){
@@ -353,6 +351,22 @@
              
           });
           document.getElementById('downloads-list').innerHTML = s2;
+
+
+          const openButtons = document.querySelectorAll('.js-open-modal');
+
+openButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    openModal(
+      button.dataset.app,
+      button.dataset.symbol,
+      button.dataset.bg,
+      button.dataset.descricao,
+      button.dataset.apk,
+      button.dataset.site
+    );
+  });
+});
 
           }
  
