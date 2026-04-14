@@ -10,20 +10,14 @@
         <header class="topbar" id="topbar">
             <div class="container topbar-inner">
                 <a href="#" class="brand" aria-label="AppZone">
-                    <span class="brand-mark"></span>
-                    <span class="brand-name">AppZone</span>
+                    <span class="brand-name">BresoDEV AppStore</span>
                 </a>
                 <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
                 <nav class="nav">
                     <a href="#" class="active">Início</a>
                     <a href="#categorias">Categorias</a>
                     <a href="#downloads">Top Apps</a>
-                    <a href="#footer">Blog</a>
                 </nav>
-                <div class="auth">
-                    <button class="btn btn-outline">Login</button>
-                    <button class="btn btn-primary">Registrar</button>
-                </div>
             </div>
         </header>
         <main>
@@ -31,16 +25,21 @@
                 <div class="container hero-card">
                     <div class="hero-copy">
                         <h1>
-                            Descubra os
-                            <span>Melhores Aplicativos</span>
+                            Bem Vindo(a) ao
+                            <span>BresoDEV AppStore</span>
                         </h1>
-                        <p>Baixe os melhores apps para seu dispositivo!</p>
+                        <p>Baixe ou acesse os melhores apps e projetos que eu criei, diretamente no seu dispositivo!</p>
                         <div class="searchbar">
                             <label class="search-input-wrap" aria-label="Buscar aplicativos">
                                 <span class="search-icon">🔎</span>
-                                <input class="search-input" type="text" placeholder="Buscar aplicativos...">
+                                <input
+                                    id="search-input"
+                                    class="search-input"
+                                    type="text"
+                                    placeholder="Buscar aplicativos..."
+                                >
                             </label>
-                            <button class="search-btn">Buscar</button>
+                            <button class="search-btn" id="btnBuscar">Buscar</button>
                         </div>
                     </div>
                     <div class="hero-visual" aria-hidden="true">
@@ -67,12 +66,13 @@
             <section class="section">
                 <div class="container">
                     <div class="section-header">
-                        <h2>Apps em Destaque</h2>
+                        <h2 id="Apps em Destaque">Apps em Destaque</h2>
                         <div class="section-line"></div>
-                        <a href="#" class="section-link">Ver Todos ›</a>
+                        <a href="#" class="section-link" id="Ver Todos">Ver Todos ›</a>
                     </div>
-                    <div class="cards">
-                        <article class="card">
+                    <div class="cards" id="recomendados">
+                        <!--
+                            <article class="card">
                             <div class="app-head">
                                 <div class="app-icon game" data-symbol="🎮"></div>
                                 <div class="app-info">
@@ -91,64 +91,7 @@
                                 data-bg="linear-gradient(135deg, #6a4424, #2f1711 65%)"
                             >Baixar</button>
                         </article>
-                        <article class="card">
-                            <div class="app-head">
-                                <div class="app-icon photo"></div>
-                                <div class="app-info">
-                                    <h3>PhotoPro</h3>
-                                    <p>Editor de Fotos</p>
-                                    <div class="stars">
-                                        ★★★
-                                        <span style="color:#68789d">★</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <button
-                                class="download-btn js-open-modal"
-                                data-app="PhotoPro"
-                                data-symbol="◉"
-                                data-bg="conic-gradient(from 120deg, #ffb038, #fe4f7a, #6b5cff, #ffb038)"
-                            >Baixar</button>
-                        </article>
-                        <article class="card">
-                            <div class="app-head">
-                                <div class="app-icon music" data-symbol="♪"></div>
-                                <div class="app-info">
-                                    <h3>MusicPlay</h3>
-                                    <p>Música e Áudio</p>
-                                    <div class="stars">
-                                        ★★★
-                                        <span style="color:#68789d">★</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <button
-                                class="download-btn js-open-modal"
-                                data-app="MusicPlay"
-                                data-symbol="♪"
-                                data-bg="linear-gradient(135deg, #6c1dd1, #ff7ea7)"
-                            >Baixar</button>
-                        </article>
-                        <article class="card">
-                            <div class="app-head">
-                                <div class="app-icon fit" data-symbol="✚"></div>
-                                <div class="app-info">
-                                    <h3>FitLife</h3>
-                                    <p>Saúde e Fitness</p>
-                                    <div class="stars">
-                                        ★★★
-                                        <span style="color:#68789d">★</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <button
-                                class="download-btn js-open-modal"
-                                data-app="FitLife"
-                                data-symbol="✚"
-                                data-bg="linear-gradient(135deg, #32a336, #9fe84c)"
-                            >Baixar</button>
-                        </article>
-                    </div>
+                         --></div>
                 </div>
             </section>
             <section class="section" id="categorias">
@@ -207,67 +150,7 @@
                                 data-bg="linear-gradient(135deg, #2aaff4, #ff5131)"
                             >Baixar</button>
                         </article>
-                        <article class="download-row">
-                            <div class="rank">2.</div>
-                            <div class="download-app">
-                                <div class="app-icon chat" data-symbol="💭"></div>
-                                <div class="download-app-text">
-                                    <h3>ChatWave</h3>
-                                    <p>Mensagens</p>
-                                </div>
-                            </div>
-                            <div class="rating">
-                                ★★★★
-                                <span>4.7</span>
-                            </div>
-                            <button
-                                class="download-btn js-open-modal"
-                                data-app="ChatWave"
-                                data-symbol="💭"
-                                data-bg="linear-gradient(135deg, #1ec7b5, #6b9cff)"
-                            >Baixar</button>
-                        </article>
-                        <article class="download-row">
-                            <div class="rank">3.</div>
-                            <div class="download-app">
-                                <div class="app-icon video" data-symbol="▶"></div>
-                                <div class="download-app-text">
-                                    <h3>MegaTube</h3>
-                                    <p>Vídeo e Streaming</p>
-                                </div>
-                            </div>
-                            <div class="rating">
-                                ★★★★
-                                <span>4.6</span>
-                            </div>
-                            <button
-                                class="download-btn js-open-modal"
-                                data-app="MegaTube"
-                                data-symbol="▶"
-                                data-bg="linear-gradient(135deg, #ff1717, #ffa600)"
-                            >Baixar</button>
-                        </article>
-                        <article class="download-row">
-                            <div class="rank">4.</div>
-                            <div class="download-app">
-                                <div class="app-icon mind" data-symbol="☯"></div>
-                                <div class="download-app-text">
-                                    <h3>ZenMind</h3>
-                                    <p>Meditação</p>
-                                </div>
-                            </div>
-                            <div class="rating">
-                                ★★★★
-                                <span>4.9</span>
-                            </div>
-                            <button
-                                class="download-btn js-open-modal"
-                                data-app="ZenMind"
-                                data-symbol="☯"
-                                data-bg="linear-gradient(135deg, #27c8a6, #d2f6e5)"
-                            >Baixar</button>
-                        </article>
-
+                         
                         
                       --></div>
                 </div>
@@ -275,34 +158,9 @@
         </main>
         <footer id="footer">
             <div class="container">
-                <div class="footer-grid">
-                    <div class="footer-col">
-                        <h4>Sobre Nós</h4>
-                        <div class="footer-line"></div>
-                        <div class="socials">
-                            <a href="#" class="social" aria-label="Facebook">f</a>
-                            <a href="#" class="social" aria-label="Email">✉</a>
-                            <a href="#" class="social" aria-label="Twitter">𝕏</a>
-                            <a href="#" class="social" aria-label="Instagram">◎</a>
-                            <a href="#" class="social" aria-label="YouTube">◉</a>
-                        </div>
-                    </div>
-                    <div class="footer-col">
-                        <h4>Suporte</h4>
-                        <div class="footer-line"></div>
-                    </div>
-                    <div class="footer-col">
-                        <h4>Termos de Uso</h4>
-                        <div class="footer-line"></div>
-                    </div>
-                    <div class="footer-col">
-                        <h4>Política de Privacidade</h4>
-                        <div class="footer-line"></div>
-                    </div>
-                </div>
                 <div class="footer-note">
-                    <div>Pequena plataforma para descobrir e baixar seus apps favoritos.</div>
-                    <div class="copyright">© 2024 AppZone - Todos os direitos reservados</div>
+                    <div>Pequena plataforma para descobrir e baixar meus apps e projetos.</div>
+                    <div class="copyright">© 2026 BresoDEV AppStore - Todos os direitos reservados</div>
                 </div>
             </div>
         </footer>
@@ -331,12 +189,20 @@
         <script>
 
 
+ 
+
           var s = "";
           var ct = 1;
            
           apks.forEach(apk => {
             
             if(apk[1] !== ''){
+
+                //if (apk[2].length > 20) {
+                //    apk[2] = apk[2].slice(0, 20) + "...";
+                //    console.log(apk[2])
+                //}
+
                 s += `
                 <article class="download-row">
                                 <div class="rank">${ct}.</div>
@@ -346,12 +212,13 @@
                                       </div>
                                     <div class="download-app-text">
                                         <h3>${apk[0]}</h3>
+                                         
                                         <p>${apk[2]}</p>
                                     </div>
                                 </div>
                                 <div class="rating">
                                     ★★★★
-                                    <span>4.8</span>
+                                    <span>4.${Math.floor(Math.random() * 9)}</span>
                                 </div>
                                 <button
                                     class="download-btn js-open-modal"
@@ -380,11 +247,120 @@
 
 
 
+          //---------CARREGAR RECOMENDADOS-------------
+          //recomendados
+          var s2 = "";
+          var randomico = Math.floor(Math.random() * ct - 4)
+
+          for (let index = 0; index < 4; index++) {
+            
+            s2 += `
+            <article class="card">
+                            <div class="app-head">
+                                <div class="app-icon game">
+                                    <img src="${apks[randomico+index][1]}">
+                                    </div>
+                                <div class="app-info">
+                                    <h3>${apks[randomico+index][0]}</h3>
+                                    <p>${apks[randomico+index][2]}</p>
+                                    <div class="stars">
+                                        ★★★
+                                        <span style="color:#68789d">★</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <button
+                                class="download-btn js-open-modal"
+                                    data-app="${apks[randomico+index][0]}"
+                                    data-symbol="${apks[randomico+index][1]}"
+                                    data-descricao="${apks[randomico+index][3]}"
+                                    data-apk="${apks[randomico+index][4]}"
+                                    data-site="${apks[randomico+index][5]}"
+                                data-bg="linear-gradient(135deg, #6a4424, #2f1711 65%)"
+                            >Baixar</button>
+                        </article>
+                        `
+          }
+
+            document.getElementById('recomendados').innerHTML = s2
+
+
+            //----------------------------------------------------
+
+
+            /*
+             <input id="search-input" class="search-input" type="text" placeholder="Buscar aplicativos...">
+                            </label>
+                            <button class="search-btn" id="btnBuscar">Buscar</button>
+                            */
+             document.getElementById('btnBuscar').addEventListener('click',()=>{
+
+                carregarPorPalavra(document.getElementById('search-input').value)
+
+
+                //remove os itens que estao na tela e deixa so os resultados da busca
+                document.getElementById('categorias').innerHTML = ''
+                document.getElementById('recomendados').innerHTML = ''
+                document.getElementById('Apps em Destaque').innerHTML = ''
+                document.getElementById('Ver Todos').innerHTML = ''
+                window.location.href = "#downloads"
+             })              
+
+          function carregarPorPalavra(busca){
+
+            document.getElementById('downloads-list').innerHTML = ''
+                var s2 = "";
+                var ct2 = 1;
+
+                apks.forEach(apk => {
+                
+                  if(apk[1] !== '' && apk[0].toLowerCase().includes(busca.toLowerCase())){
+
+
+                   // if (apk[2].length > 200) {
+                   //     apk[2] = apk[2].slice(0, 200) + "...";
+                   // }
+
+                      s2 += `
+                      <article class="download-row">
+                                      <div class="rank">${ct2}.</div>
+                                      <div class="download-app">
+                                          <div class="app-icon">
+                                            <img src="${apk[1]}">
+                                            </div>
+                                          <div class="download-app-text">
+                                              <h3>${apk[0]}</h3>
+                                              <p>${apk[2]}</p>
+                                          </div>
+                                      </div>
+                                      <div class="rating">
+                                          ★★★★
+                                          <span>4.${Math.floor(Math.random() * 9)}</span>
+                                      </div>
+                                      <button
+                                          class="download-btn js-open-modal"
+                                          data-app="${apk[0]}"
+                                          data-symbol="${apk[1]}"
+                                          data-descricao="${apk[3]}"
+                                          data-apk="${apk[4]}"
+                                          data-site="${apk[5]}"
+                                          data-bg="linear-gradient(135deg, #2aaff4, #ff5131)"
+                                      >Baixar</button>
+                                  </article>
+                      `
+                       ct2++;            
+                  }
+             
+          });
+          document.getElementById('downloads-list').innerHTML = s2;
+
+          }
+ 
 
 
 
 
-
+            //---------------------------------------------
 
 
 
@@ -419,7 +395,31 @@
 
       //<button class="btn btn-primary" id="Download APK">Download Android</button>
       //<button class="btn btn-soft" id="Acessar Site">Download iOS</button>
-      document.getElementById('modal-actions').innerHTML = `
+
+      if(apklink !== 'vazio' && sitelink == 'vazio'){
+ document.getElementById('modal-actions').innerHTML = `
+      <a href="${apklink}">
+        <button class="btn btn-primary" >Download APK</button>
+      </a>
+
+       
+      
+      `
+      }
+
+      else if(apklink == 'vazio' && sitelink !== 'vazio'){
+         document.getElementById('modal-actions').innerHTML = `
+      
+
+       <a href="${sitelink}">
+        <button class="btn btn-soft">Acessar Site</button>
+      </a>
+      
+      `
+      }
+
+       else if(apklink !== 'vazio' && sitelink !== 'vazio'){
+         document.getElementById('modal-actions').innerHTML = `
       <a href="${apklink}">
         <button class="btn btn-primary" >Download APK</button>
       </a>
@@ -429,6 +429,8 @@
       </a>
       
       `
+      }
+     
       document.getElementById('modalIcon').innerHTML = `
        <img src="${symbol}">
       
