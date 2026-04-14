@@ -53,7 +53,8 @@
               'Crie e compartilhe fluxogramas de forma rápida e intuitiva.',
               'O Fluxograma é uma ferramenta prática e acessível para criar fluxogramas profissionais sem complicações. Desenvolvido para estudantes, professores, equipes de projeto e qualquer pessoa que precise organizar ideias visualmente, o app oferece uma interface drag-and-drop intuitiva e uma ampla variedade de formas e conectores. Com suporte a colaboração em tempo real e opções de compartilhamento instantâneo, você pode construir fluxos lógicos, diagramas de processos e mapas mentais com agilidade. Exporte seus projetos em diversos formatos (PDF, PNG, SVG) ou compartilhe via link. Simples, direto e funcional, o Fluxograma é o aliado ideal para transformar ideias em estruturas visuais claras.',
               'vazio',
-              'https://bresodev.github.io/Fluxograma/'
+              'https://bresodev.github.io/Fluxograma/',
+              'Ferramentas Produtividade'
             ],
             [
               'LUA Obfuscator',
@@ -61,7 +62,8 @@
               'Obfuscador eficiente de códigos LUA para proteção e segurança.',
               'O LUA Obfuscator é uma ferramenta poderosa desenvolvida para proteger scripts escritos na linguagem LUA contra engenharia reversa, cópia indevida ou modificação não autorizada. Ideal para desenvolvedores que desejam distribuir seus códigos com mais segurança, ele transforma o código original em uma versão altamente embaralhada e difícil de entender, mantendo sua funcionalidade intacta. O aplicativo oferece uma interface simples e intuitiva, permitindo que qualquer usuário, mesmo com pouca experiência, possa proteger seus scripts com apenas alguns cliques. Compatível com diversas versões de LUA, o LUA Obfuscator é a solução ideal para garantir a integridade e confidencialidade dos seus projetos.',
               'vazio',
-              'https://bresodev.github.io/C_to_LUA/luaObfuscator.html'
+              'https://bresodev.github.io/C_to_LUA/luaObfuscator.html',
+              'Ferramentas '
             ],
             
             [
@@ -70,7 +72,8 @@
               'Converta códigos LUA automaticamente para C++ com facilidade.',
               'C_to_LUA é uma ferramenta poderosa e prática que converte scripts escritos em LUA para código C++. Ideal para desenvolvedores que desejam portar suas aplicações ou jogos escritos em LUA para C++, o app analisa a estrutura dos scripts LUA e gera automaticamente um código C++ correspondente, economizando horas de trabalho manual. Além da conversão básica, ele também realiza ajustes sintáticos e sugere melhorias compatíveis com boas práticas do C++. A interface é simples, intuitiva e ideal tanto para iniciantes quanto para programadores experientes que precisam de agilidade na migração de projetos. Com o C_to_LUA, você transforma seus scripts de forma rápida, segura e com alta fidelidade.',
               'vazio',
-              'https://bresodev.github.io/C_to_LUA/'
+              'https://bresodev.github.io/C_to_LUA/',
+              'Ferramentas '
             ],
             
             [
@@ -79,7 +82,8 @@
               'Blog pessoal com compartilhamento de códigos em várias linguagens de programação.',
               'O Blog é o espaço perfeito para desenvolvedores, estudantes e entusiastas da programação que desejam explorar e compartilhar códigos em diversas linguagens. Em um formato simples e direto, este blog pessoal oferece tutoriais, snippets e exemplos de código para ajudar a resolver problemas comuns e inspirar novos projetos. Com foco em clareza e acessibilidade, o blog abrange desde linguagens populares como Python, JavaScript e C++, até tecnologias emergentes, oferecendo conteúdos variados que atendem a diferentes níveis de experiência. Além disso, o Blog permite que os leitores interajam com o conteúdo, deixando comentários e sugestões, criando uma comunidade colaborativa em torno da programação. Ideal para quem busca aprender, ensinar e se atualizar sobre as últimas tendências do mundo da codificação.',
               'vazio',
-              'https://bresodev.github.io/blog/'
+              'https://bresodev.github.io/blog/',
+              'Entretenimento Produtividade'
             ],
             
             [
@@ -88,7 +92,8 @@
               'Gerencie seus sites favoritos com uma interface personalizada e estilizada.',
               'O barraFavoritos é um gerenciador de favoritos inovador que transforma a maneira como você organiza seus links preferidos. Ao invés de uma simples lista de favoritos, ele oferece uma página estilizada e personalizável onde você pode adicionar, editar e organizar seus links de forma visual e intuitiva. Com uma interface limpa e moderna, você pode agrupar seus sites favoritos em categorias e até aplicar diferentes temas para personalizar a aparência da sua barra de favoritos. A solução perfeita para quem busca otimizar a navegação e ter um acesso rápido e fácil aos sites mais visitados. Além disso, o barraFavoritos permite que você exporte e compartilhe suas coleções de links com outros usuários. Simples, prático e funcional!',
               'vazio',
-              'https://bresodev.github.io/barraFavoritos/'
+              'https://bresodev.github.io/barraFavoritos/',
+              'Produtividade'
             ],
             
             [
@@ -97,7 +102,8 @@
               'Crie pixel art diretamente no seu navegador, sem complicação.',
               'O PixelArtWeb é a plataforma online ideal para quem quer criar pixel art de forma simples e rápida, diretamente no navegador. Sem a necessidade de softwares pesados, o app oferece uma interface intuitiva onde você pode desenhar, editar e salvar suas obras com facilidade. Ideal para designers, artistas ou qualquer pessoa interessada em explorar o mundo do pixel art, o PixelArtWeb disponibiliza uma paleta de cores customizável, ferramentas de zoom e recursos avançados para trabalhar com precisão. Compartilhe suas criações ou exporte-as em diversos formatos, tudo com um clique. A plataforma permite ainda o trabalho colaborativo, possibilitando que mais de uma pessoa edite a arte ao mesmo tempo. Transforme suas ideias em pixel art com liberdade e agilidade!',
               'vazio',
-              'https://bresodev.github.io/PixelArtWeb'
+              'https://bresodev.github.io/PixelArtWeb',
+              'Entretenimento'
             ],
             
             [
@@ -106,7 +112,8 @@
               'Converta imagens em código HTML e CSS com facilidade.',
               'O IMG to CSS é uma ferramenta inovadora para desenvolvedores web que desejam transformar imagens em código HTML e CSS de forma rápida e eficiente. Basta fazer o upload de uma imagem, e o aplicativo gera automaticamente o código necessário para replicá-la usando apenas HTML e CSS, sem a necessidade de recursos pesados como arquivos de imagem. Ideal para quem busca otimizar a performance de seus sites e criar layouts minimalistas, o IMG to CSS permite personalização completa e controle sobre as propriedades de estilo geradas. O app também suporta a exportação dos arquivos prontos para fácil integração no seu projeto. A solução perfeita para tornar a web mais leve e criativa!',
               'vazio',
-              'https://bresodev.github.io/IMG-to-CSS-Web'
+              'https://bresodev.github.io/IMG-to-CSS-Web',
+              'Entretenimento Ferramentas Produtividade'
             ],
             [
               'Alarme',
@@ -114,7 +121,8 @@
               'Um temporizador simples que cria alarmes após um tempo definido, ideal para estudos e tarefas.',
               'Este aplicativo foi criado para quem precisa controlar o tempo de forma prática, configurando alarmes após um período determinado. Seja para estudar, descansar, cozinhar, treinar ou organizar rotinas, ele permite definir intervalos personalizados com apenas alguns toques. Sua interface direta e sem distrações facilita o uso no dia a dia, garantindo que o foco permaneça na atividade e não na configuração. O app toca um alarme claro ao final do tempo, ajudando o usuário a manter disciplina e acompanhar ciclos de produtividade, como técnicas de estudo ou pausas programadas. Ele também pode ser usado para lembretes rápidos, atividades temporizadas ou qualquer situação em que o tempo seja importante. Leve, intuitivo e sempre preciso, este temporizador é a ferramenta ideal para quem busca organização e controle sem complicação.',
               'vazio',
-              'https://bresodev.github.io/webtest/Despertador/'
+              'https://bresodev.github.io/webtest/Despertador/',
+              'Produtividade'
             ],
             
             
@@ -124,7 +132,8 @@
               'pixME gera QR Codes Pix instantâneos para facilitar pagamentos rápidos e seguros.',
               'pixME é um aplicativo desenvolvido para quem precisa gerar QR Codes Pix de forma rápida, prática e confiável. Com uma interface direta, ele permite criar códigos prontos para pagamento em poucos segundos, sem complicação. Basta inserir os dados necessários e o app automaticamente gera o QR Code, ideal para vendas, cobranças, serviços ou uso pessoal. O aplicativo também oferece opções de copiar o código numérico e compartilhar facilmente com clientes ou contatos. Seu design leve e objetivo torna o processo de pagamentos muito mais simples, evitando erros manuais e agilizando o recebimento. Seja para empreendedores, autônomos ou qualquer pessoa que utiliza o Pix com frequência, o pixME é a ferramenta perfeita para tornar o dia a dia mais rápido, organizado e eficiente.',
               'vazio',
-              'https://bresodev.github.io/webtest/pix/'
+              'https://bresodev.github.io/webtest/pix/',
+              'Produtividade'
             ],
             [
               'Glico+',
@@ -132,7 +141,8 @@
               'Ajuda pessoas com diabetes a registrarem e acompanharem seus níveis glicêmicos de forma simples e prática.',
               'Glico+ é um aplicativo criado especialmente para pessoas com diabetes que precisam monitorar e registrar seus níveis de glicose ao longo do dia. Com uma interface simples e direta, ele permite que o usuário anote rapidamente cada medição, mantendo um histórico organizado e fácil de consultar. O app facilita o acompanhamento da evolução glicêmica, ajudando na identificação de padrões e variações importantes. Além das anotações, o usuário pode revisar registros passados, comparar dias e criar uma rotina de controle mais eficiente. Glico+ foi desenvolvido para tornar o processo de monitoramento mais leve e acessível, oferecendo um ambiente intuitivo para quem lida diariamente com a condição. Ideal tanto para quem está começando a se organizar quanto para quem busca uma ferramenta confiável, o Glico+ fortalece o autocuidado e contribui para uma vida mais equilibrada.',
               'apks/Glico+ 1.0.apk',
-              'vazio'
+              'vazio',
+              'Ferramentas'
             ],
             [
               'Cocoladora',
@@ -140,7 +150,8 @@
               'Descubra quanto você lucra no trono com base no seu salário por hora.',
               'O Cocoladora é um app divertido e irreverente que calcula quanto dinheiro você “ganha” durante suas idas ao banheiro no expediente. Basta informar seu salário por hora, e o aplicativo faz as contas com base no tempo que você passa sentado no trono. Ideal para quem adora piadas de escritório, ama estatísticas curiosas ou só quer rir enquanto trabalha, o Cocoladora combina humor com matemática simples. Além do valor estimado, o app também mostra um histórico de visitas, média diária e até rankings, tudo com uma interface leve e bem-humorada. Leve seu senso de humor ao próximo nível — afinal, tempo é dinheiro, até no banheiro!',
               'apks/Cocoladora 1.0.apk',
-              'vazio'
+              'vazio',
+              'Entretenimento'
             ],
             [
               'Carteira WEB',
@@ -148,7 +159,8 @@
               'Armazene seus documentos pessoais com segurança, direto no navegador.',
               'O Carteira WEB é uma aplicação web pensada para quem busca praticidade e privacidade. Com ela, você pode armazenar seus documentos pessoais — como RG, CPF, CNH, carteirinha de plano de saúde, entre outros — de forma criptografada e totalmente local, sem depender de servidores externos ou cadastros. Os dados são protegidos diretamente no navegador com criptografia de ponta, garantindo que apenas você tenha acesso às suas informações. Tudo fica salvo localmente, com suporte a backups e senha de acesso. Ideal para quem quer acesso rápido e seguro aos documentos em qualquer computador ou celular, sem comprometer a privacidade.O Carteira WEB é leve, simples de usar, e foi feito para proteger aquilo que é só seu.',
               'vazio',
-              'https://bresodev.github.io/webCarteira/'
+              'https://bresodev.github.io/webCarteira/',
+              ''
             ],
             [
               'BackTracks',
@@ -156,7 +168,8 @@
               'Aplicativo com um acervo de músicas de rock sem faixas de guitarra, para que guitarrista possam tocar junto com a música.',
               'Libere o guitarrista dentro de você com o BackTracks. Este aplicativo oferece um acervo de músicas de rock sem faixas de guitarra, permitindo que você toque junto com as músicas sem a interferência da guitarra original. Com uma coleção cuidadosamente selecionada de músicas estabelecidas por você, o BackTracks é a ferramenta perfeita para praticar, improvisar e se divertir com suas músicas favoritas. Seja você um iniciante ou um guitarrista experiente, o BackTracks irá inspirar sua criatividade e elevar suas habilidades musicais. Experimente agora e leve suas performances de guitarra para o próximo nível com o BackTracks.',
               'apks/BackTracks.apk',
-              'https://bresodev.github.io/BackingTracks/'
+              'https://bresodev.github.io/BackingTracks/',
+              'Entretenimento'
             ],
             [
               'BresoGPT',
@@ -164,7 +177,8 @@
               'Aplicativo inspirado no ChatGPT',
               'Explore a próxima geração de conversas inteligentes com o BresoGPT. Inspirado na tecnologia revolucionária do ChatGPT, este aplicativo oferece uma experiência de conversação sem igual. Desde responder a perguntas até fornecer sugestões perspicazes, o BresoGPT está aqui para ajudar em qualquer situação. Com uma IA avançada e uma compreensão excepcional da linguagem humana, o BresoGPT torna as interações mais naturais e produtivas. Experimente hoje e descubra o poder da inteligência artificial aplicada à comunicação.',
               'apks/BresoGPT.apk',
-              'https://bresodev.github.io/GPT-Via-JSON/'
+              'https://bresodev.github.io/GPT-Via-JSON/',
+              'Entretenimento'
             ],
             [
               'LeroLero',
@@ -172,7 +186,8 @@
               'Gerador de texto aleatorio (lero lero)',
               'Crie textos aleatórios com o Lero Lero. Este gerador de texto aleatório utiliza algoritmos avançados para criar parágrafos sem sentido, conhecidos como lero lero. Com uma variedade de opções de personalização, você pode gerar textos curtos ou longos, escolher entre diferentes estilos de linguagem e até mesmo incluir palavras-chave específicas. O Lero Lero é perfeito para preencher espaços em branco, criar conteúdo fictício ou apenas para se divertir com amigos. Experimente agora e deixe sua imaginação correr solta com o Lero Lero.',
               'apks/LeroLero.apk',
-              'https://bresodev.github.io/LeroLero/'
+              'https://bresodev.github.io/LeroLero/',
+              'Entretenimento'
             ],
             [
               'SpeakUp Chat',
@@ -180,7 +195,8 @@
               'Aplicativo de conversas/chat entre usuarios',
               'Transforme suas conversas em uma experiência envolvente e eficiente com o SpeakUp Chat. Este aplicativo de mensagens permite que você se conecte com amigos, familiares e colegas de forma rápida e fácil. Com recursos intuitivos e uma interface amigável, o SpeakUp Chat oferece uma plataforma segura e confiável para trocar mensagens, compartilhar mídia e manter-se conectado onde quer que você esteja. Experimente hoje mesmo o SpeakUp Chat e eleve suas conversas a um novo nível.',
               'apks/SpeakUp.apk',
-              'https://bresodev.github.io/redirecionador_apk/SpeakUp.html'
+              'https://bresodev.github.io/redirecionador_apk/SpeakUp.html',
+              'Entretenimento'
             ],
             [
               'PasteBoot',
@@ -188,7 +204,8 @@
               'Aplicativo semelhante ao Pastebin, para hospedar e compartilhar textos diversos',
               'Simplifique o compartilhamento e a hospedagem de textos e códigos com o PasteBoot. Este aplicativo intuitivo oferece uma plataforma fácil de usar para compartilhar e armazenar uma variedade de conteúdos, desde trechos de código até notas e textos informativos. PasteBoot torna o processo de compartilhar informações mais conveniente do que nunca. Experimente agora e descubra como o PasteBoot pode simplificar suas necessidades de compartilhamento de conteúdo.',
               'apks/PasteBoot.apk',
-              'https://bresodev.github.io/redirecionador_apk/PasteBot.html'
+              'https://bresodev.github.io/redirecionador_apk/PasteBot.html',
+              'Entretenimento Ferramentas'
             ],
       
             [
@@ -197,7 +214,8 @@
               'Programa que simula um server ao vivo, para criar sites, permitindo mudar o html/css/js em tempo real.',
               'Dê vida às suas ideias de design web com o Live Server. Este programa revolucionário simula um servidor ao vivo, permitindo que você desenvolva e edite sites em tempo real. Com a capacidade de modificar o HTML,Javascript e o CSS instantaneamente, você pode visualizar as alterações enquanto as faz, garantindo uma experiência de desenvolvimento ágil e eficiente. Seja para prototipagem rápida ou para refinamento contínuo, o Live Server oferece uma solução flexível e poderosa para criar sites impressionantes. Experimente agora e leve seu processo de desenvolvimento web para o próximo nível com o Live Server.',
               'apks/Live Server.apk',
-              'https://bresodev.github.io/LiveServer/'
+              'https://bresodev.github.io/LiveServer/',
+              'Ferramentas Produtividade'
             ],
             [
               'Junk Code',
@@ -205,7 +223,8 @@
               'Gerador de junk code para varias linguagens',
               'Impulsione sua segurança e confunda análises de código com o Junk Code. Este gerador de código inovador cria fragmentos de código sem sentido em várias linguagens de programação. Ao inserir uma camada adicional de complexidade em seu código, o Junk Code ajuda a proteger sua propriedade intelectual e dificulta a compreensão por parte de terceiros. Com suporte para uma variedade de linguagens populares, incluindo Python, Java e C++, o Junk Code é a ferramenta ideal para aumentar a segurança e a privacidade de seu código-fonte. Experimente agora e adicione uma camada extra de proteção ao seu trabalho com o Junk Code.',
               'apks/Junk Code.apk',
-              'https://bresodev.github.io/Web-Junk-Code/'
+              'https://bresodev.github.io/Web-Junk-Code/',
+              'Ferramentas Produtividade'
             ],
             [
               'Dark Font',
@@ -213,7 +232,8 @@
               'Conversor de texto para fonte estilizada',
               'Dê um toque especial ao seu texto com o Dark Font. Este conversor inovador transforma seu texto simples em uma fonte estilizada e única, adicionando um toque de personalidade às suas mensagens, posts em redes sociais, designs gráficos e muito mais. Com uma ampla variedade de estilos de fonte para escolher, o Dark Font permite que você se destaque da multidão e impressione seus amigos, seguidores e colegas com textos visualmente impactantes. Experimente agora e descubra como o Dark Font pode elevar o seu conteúdo para o próximo nível.',
               'apks/Dark Font.apk',
-              'https://bresodev.github.io/DarkFont/'
+              'https://bresodev.github.io/DarkFont/',
+              'Entretenimento Ferramentas'
             ],
             [
               'Chatbot Calculadora',
@@ -221,7 +241,8 @@
               'Bot que faz contas basicas de matematica',
               'Simplifique suas operações matemáticas com o Chatbot Calculadora. Este bot inteligente está pronto para ajudar com cálculos básicos de matemática, desde adição e subtração até multiplicação e divisão. Basta digitar sua equação e o Chatbot Calculadora fornecerá o resultado instantaneamente. Com uma interface fácil de usar e respostas precisas, este bot é uma ferramenta conveniente para estudantes, profissionais e qualquer pessoa que precise realizar cálculos matemáticos rapidamente. Experimente agora e deixe o Chatbot Calculadora facilitar suas tarefas matemáticas do dia a dia.',
               'apks/Chatbot Calculadora.apk',
-              'https://bresodev.github.io/BotCalculadora/'
+              'https://bresodev.github.io/BotCalculadora/',
+              'Entretenimento Produtividade'
             ],
             [
               'Version Checker',
@@ -229,7 +250,8 @@
               'Aplicativo que checka a autenticidade de um texto usando uma chave de acesso',
               'Mantenha seus textos autênticos e seguros com o Version Checker. Esta aplicação inovadora verifica a autenticidade de um texto usando uma chave de autenticidade exclusiva. Basta inserir o texto e a chave correspondente, e o Version Checker verificará se o texto é genuíno e não foi adulterado. Com recursos avançados de verificação e criptografia, o Version Checker oferece tranquilidade e segurança para garantir a integridade de seus documentos e comunicações. Experimente agora e proteja seus textos contra qualquer tipo de manipulação com o Version Checker.',
               'apks/Version Checker.apk',
-              'https://bresodev.github.io/Version-Checker-/'
+              'https://bresodev.github.io/Version-Checker-/',
+              'Ferramentas'
             ],
             [
               'Markdown Creator',
@@ -237,7 +259,8 @@
               'Formatador e gerador de textos em formato Markdown',
               'Crie documentos e conteúdo com facilidade usando o Markdown Creator. Esta ferramenta intuitiva permite que você formate e gere textos em formato Markdown de maneira eficiente e sem complicações. Com uma interface amigável e recursos abrangentes, o Markdown Creator oferece opções para formatar texto, adicionar links, inserir imagens e muito mais, tudo em conformidade com a sintaxe do Markdown. Seja para criar documentos simples ou elaborados, o Markdown Creator é a escolha ideal para quem procura uma maneira rápida e eficaz de produzir conteúdo em Markdown. Experimente agora e simplifique seu processo de criação de texto com o Markdown Creator.',
               'apks/Markdown Creator.apk',
-              'https://bresodev.github.io/MarkdownCreator/'
+              'https://bresodev.github.io/MarkdownCreator/',
+              'Ferramentas'
             ],
             [
               'PHP Code Obfuscator',
@@ -245,7 +268,8 @@
               'Obfuscador de codigo PHP',
               'Proteja seu código PHP contra engenharia reversa e mantenha sua propriedade intelectual segura com o PHP Code Obfuscator. Este poderoso obfuscador transforma seu código PHP em uma forma obscura e ilegível, tornando extremamente difícil para qualquer pessoa entender ou modificar seu código original. Com técnicas avançadas de ofuscação, como renomeação de variáveis, ofuscação de strings e remoção de espaços em branco, o PHP Code Obfuscator oferece uma camada adicional de segurança para seu código. Garanta a segurança e a confidencialidade de suas aplicações PHP com o PHP Code Obfuscator.',
               'apks/PHP Code Obfuscator.apk',
-              'https://bresodev.github.io/PHP-Obfuscator/'
+              'https://bresodev.github.io/PHP-Obfuscator/',
+              'Ferramentas'
             ],
             [
               'Rockstar Games Hasher',
@@ -253,7 +277,8 @@
               'Gerador e conversor de string ou listas para hash, usados em scripts de jogos da Rockstar Games (GTAV,RDR2,etc...)',
               'Desbloqueie o potencial dos seus scripts de jogos da Rockstar Games com o Rockstar Games Hasher. Este aplicativo poderoso permite que você gere e converta strings ou listas para hashes utilizados em scripts de jogos como Grand Theft Auto V (GTA V) e Red Dead Redemption 2 (RDR2). Com suporte para uma variedade de algoritmos de hash e formatos de entrada, o Rockstar Games Hasher simplifica o processo de criação e manipulação de hashes, permitindo que você crie scripts mais eficientes e personalizados para suas experiências de jogo. Experimente agora e leve seus scripts de jogos da Rockstar Games para o próximo nível com o Rockstar Games Hasher.',
               'apks/Rockstar Games Hasher.apk',
-              'https://bresodev.github.io/Hash-Generator-Javascript/'
+              'https://bresodev.github.io/Hash-Generator-Javascript/',
+              'Ferramentas Produtividade'
             ],
             [
               'CSS Maker',
@@ -261,15 +286,17 @@
               'Aplicacao para facilitar a estilização de elementos HTML usando CSS',
               'Simplifique o processo de estilização de elementos HTML com o CSS Maker. Esta aplicação intuitiva oferece uma interface amigável para ajudá-lo a criar estilos CSS personalizados de forma rápida e fácil. Com uma variedade de opções de formatação disponíveis, você pode ajustar cores, fontes, tamanhos, margens, bordas e muito mais com apenas alguns cliques. Além disso, o CSS Maker oferece pré-visualizações em tempo real para que você possa ver como suas alterações afetam o elemento HTML instantaneamente. Seja para iniciantes ou desenvolvedores experientes, o CSS Maker é a ferramenta ideal para simplificar o processo de estilização de elementos HTML. Experimente agora e crie estilos impressionantes para seus projetos web com facilidade.',
               'apks/CSS Maker.apk',
-              'https://bresodev.github.io/Css-Maker/'
+              'https://bresodev.github.io/Css-Maker/',
+              'Ferramentas Produtividade'
             ],
             [
               'Nightmare Game',
               'img/Nightmare.jpg',
-              'Jogo de terror, onde voce assume o papel de um vigia noturno em seu nomo emprego.',
+              'Jogo de terror, onde voce assume o papel de um vigia noturno em seu novo emprego.',
               'Prepare-se para uma experiência aterrorizante no Nightmare Game. Assuma o papel de um vigia noturno em seu novo emprego, onde você enfrentará os horrores mais sombrios e desconhecidos. Em uma atmosfera sinistra e envolvente, você precisará explorar os corredores vazios e sombrios, enfrentar ameaças sobrenaturais e desvendar os mistérios que assombram o local durante a noite. Com gráficos realistas e uma trilha sonora assustadora, o Nightmare Game levará sua coragem ao limite enquanto você luta para sobreviver até o amanhecer. Está pronto para enfrentar seus medos mais profundos? O Nightmare Game espera por você.',
               'apks/Nightmare Game.apk',
-              'https://bresodev.github.io/Nightmares/'
+              'https://bresodev.github.io/Nightmares/',
+              'Jogos'
             ],
             [
               'Javascript Obfuscator',
@@ -277,7 +304,8 @@
               'Obfuscador de codigo Javascript',
               'Proteja seu código Javascript contra engenharia reversa e mantenha sua lógica segura com o Javascript Obfuscator. Este poderoso obfuscador transforma seu código Javascript em uma forma obscura e ilegível, tornando extremamente difícil para qualquer pessoa entender ou modificar seu código original. Com técnicas avançadas de ofuscação, como renomeação de variáveis, ofuscação de strings e minificação, o Javascript Obfuscator oferece uma camada adicional de segurança para seu código. Garanta a segurança e a confidencialidade de suas aplicações web com o Javascript Obfuscator.',
               'apks/Javascript Obfuscator.apk',
-              'https://bresodev.github.io/JS-Obfuscator/'
+              'https://bresodev.github.io/JS-Obfuscator/',
+              'Ferramentas'
             ],
             [
               'Warez API',
@@ -285,7 +313,8 @@
               'Aplicativo de filmes via link do IMDB',
               'Acesse uma vasta biblioteca de filmes diretamente do IMDb com o Warez API. Este aplicativo inovador oferece acesso rápido e conveniente a uma ampla variedade de filmes, utilizando links do IMDb como fonte de referência. Com o Warez API, você pode procurar por filmes por título, gênero, ano de lançamento e muito mais, tudo com base nos dados do IMDb. Experimente agora e descubra uma nova maneira de explorar e desfrutar de filmes com o Warez API.',
               'vazio',
-              'https://bresodev.github.io/WarezAPI/'
+              'https://bresodev.github.io/WarezAPI/',
+              'Entretenimento'
             ],
             [
               'Text Encriptor',
@@ -293,7 +322,8 @@
               'Encriptador e decriptador de textos',
               'Proteja seus textos confidenciais com o Text Encriptor. Este aplicativo poderoso oferece ferramentas para encriptar e decriptar mensagens de forma rápida e segura. Utilizando algoritmos avançados de criptografia, o Text Encriptor transforma seu texto em uma forma ilegível, protegendo suas informações contra olhares curiosos. Além disso, o aplicativo também oferece a capacidade de decriptar mensagens encriptadas, permitindo que você acesse facilmente seus textos originais quando necessário. Com o Text Encriptor, você pode ter tranquilidade sabendo que suas comunicações estão protegidas contra interceptações não autorizadas. Experimente agora e mantenha suas mensagens confidenciais seguras com o Text Encriptor.',
               'apks/Text Encriptor.apk',
-              'https://bresodev.github.io/Criptografia-Strings/'
+              'https://bresodev.github.io/Criptografia-Strings/',
+              'Ferramentas'
             ],
             [
               'Mensagens Automaticas',
@@ -301,7 +331,8 @@
               'Gerador de mensagens de temas diversos (bom dia, boa noite, aniversario, etc...)',
               'Facilite a comunicação enviando mensagens automáticas para diversas ocasiões com o Mensagens Automáticas. Este gerador de mensagens oferece uma variedade de temas, como bom dia, boa noite, aniversário, motivação e muito mais. Com uma ampla seleção de mensagens pré-definidas para cada tema, você pode escolher a mensagem perfeita para enviar aos seus amigos, familiares, colegas ou seguidores. Além disso, o Mensagens Automáticas permite personalizar e agendar o envio das mensagens, garantindo que elas sejam entregues no momento certo. Experimente agora e simplifique o processo de enviar mensagens para várias ocasiões com o Mensagens Automáticas.',
               'apks/Mensagens Automaticas.apk',
-              'https://bresodev.github.io/MensagensBomDia/'
+              'https://bresodev.github.io/MensagensBomDia/',
+              'Entretenimento'
             ],
             [
               'Mod Source Cripto',
@@ -309,7 +340,8 @@
               'Obfuscador de source codes para mods para GTAV e RDR2, criados usando C++',
               'Proteja a integridade de seus mods para Grand Theft Auto V (GTA V) e Red Dead Redemption 2 (RDR2) com o Mod Source Cripto. Este obfuscador especializado em source codes escritos em C++ permite que você ofusque o código de seus mods, tornando-os mais difíceis de serem entendidos e modificados por terceiros. Com técnicas avançadas de obfuscation, como renomeação de variáveis, ofuscação de strings e compressão de código, o Mod Source Cripto oferece uma camada adicional de segurança para seus mods. Garanta a proteção de sua propriedade intelectual e mantenha seus mods seguros com o Mod Source Cripto.',
               'vazio',
-              'https://bresodev.github.io/RockstarModCripto'
+              'https://bresodev.github.io/RockstarModCripto',
+              'Ferramentas'
             ],
             [
               'HTML Cripto',
@@ -317,7 +349,8 @@
               'Obfuscador de codigo HTML',
               'Proteja seu código HTML contra engenharia reversa e mantenha sua estrutura segura com o HTML Cripto. Este obfuscador especializado em código HTML oferece uma maneira eficaz de ofuscar seu código, tornando-o mais difícil de ser lido e compreendido por terceiros. Com técnicas avançadas de obfuscation, como remoção de espaços em branco, renomeação de tags e atributos, e compactação de código, o HTML Cripto oferece uma camada adicional de segurança para suas páginas web. Garanta a integridade de seu código HTML e proteja sua propriedade intelectual com o HTML Cripto.',
               'apks/HTML Cripto.apk',
-              'https://bresodev.github.io/CriptoHTML/'
+              'https://bresodev.github.io/CriptoHTML/',
+              'Ferramentas'
             ],
             [
               'Calculo IMC',
@@ -325,7 +358,8 @@
               'App que calcula a massa corporea',
               'Mantenha-se saudável e monitore seu índice de massa corporal (IMC) com o aplicativo Calculo IMC. Este aplicativo fácil de usar permite que você calcule seu IMC inserindo sua altura e peso. Com base nessas informações, o aplicativo fornecerá seu IMC e uma indicação de sua classificação de acordo com os padrões estabelecidos pela Organização Mundial da Saúde (OMS). Experimente agora e comece a monitorar seu IMC com o Calculo IMC.',
               'apks/Calculo IMC.apk',
-              'https://bresodev.github.io/Calculo-IMC/'
+              'https://bresodev.github.io/Calculo-IMC/',
+              'Entretenimento Ferramentas Produtividade'
             ],
             [
               'Breso Photoshop',
@@ -333,7 +367,8 @@
               'Simples editor de imagens',
               'Transforme suas imagens com facilidade usando o JS Photoshop. Este aplicativo de edição de imagens online oferece uma variedade de ferramentas poderosas para editar suas fotos de forma rápida e simples. Com recursos como ajuste de cores, recorte, redimensionamento, aplicação de filtros e muito mais, você pode aprimorar suas imagens diretamente no navegador, sem a necessidade de instalar software adicional. Além disso, o JS Photoshop oferece uma interface amigável e intuitiva, permitindo que até mesmo iniciantes em edição de imagens possam criar resultados impressionantes. Experimente agora e liberte sua criatividade com o JS Photoshop.',
               'vazio',
-              'https://bresodev.github.io/Editor-de-Imagens-Javascript/'
+              'https://bresodev.github.io/Editor-de-Imagens-Javascript/',
+              'Entretenimento Ferramentas Produtividade'
             ],
             [
               'Stencil Maker',
@@ -341,7 +376,8 @@
               'Crie facilmente stencils a partir de suas imagens',
               'Crie facilmente stencils a partir de suas imagens com o Stencil Maker. Este aplicativo é projetado para artistas de graffiti, designers e entusiastas de arte que desejam transformar suas imagens em stencils utilizáveis. Com ferramentas avançadas de vetorização e edição, o Stencil Maker permite que você converta suas imagens em designs de stencil de alta qualidade. Além disso, oferece opções de personalização, como ajuste de detalhes, tamanho e espessura do traço, para que você possa criar stencils que atendam às suas necessidades específicas. Experimente o Stencil Maker hoje e leve suas criações artísticas para o próximo nível.',
               'vazio',
-              'https://bresodev.github.io/Stencil-Maker/'
+              'https://bresodev.github.io/Stencil-Maker/',
+              'Entretenimento Ferramentas'
             ],
             [
               'Unicode Finder',
@@ -349,7 +385,8 @@
               'Localize codigos de fontes unicode',
               'Descubra os códigos Unicode de caracteres específicos e obtenha o código HTML correspondente com o Unicode Finder. Este aplicativo útil permite que você insira texto contendo caracteres Unicode, como aqueles usados em fontes personalizadas, e exiba o código fonte correspondente. Você poderá ver o valor Unicode de cada caractere e copiar o código HTML correspondente para uso em suas páginas da web. Com o Unicode Finder, você pode simplificar o processo de incorporação de caracteres Unicode em seus projetos, garantindo uma experiência de design consistente e personalizada. Experimente agora e aproveite ao máximo o vasto mundo de caracteres Unicode com o Unicode Finder.',
               'apks/Unicode Finder.apk',
-              'https://bresodev.github.io/FontFinder/'
+              'https://bresodev.github.io/FontFinder/',
+              ''
             ],
       
             [
@@ -358,7 +395,8 @@
               'Aplicativo para adicionar lembretes',
               'Mantenha-se organizado com o aplicativo Lembretes. Este aplicativo permite que você adicione facilmente listas de lembretes ou tarefas para que você nunca mais esqueça um compromisso importante. Com uma interface simples e intuitiva, você pode criar lembretes, atribuir prioridades e marcar tarefas como concluídas conforme necessário. Os lembretes não possuem data de expiração, portanto, precisam ser excluídos manualmente quando concluídos. Mantenha-se organizado e produtivo com o Lembretes.',
               'apks/Lembretes.apk',
-              'https://bresodev.github.io/Post-Its/'
+              'https://bresodev.github.io/Post-Its/',
+              ' Produtividade'
             ],
             [
               'Breaking Bad',
@@ -366,7 +404,8 @@
               'Jogo baseado na série de tv',
               'Entre no submundo do crime de Albuquerque com Breaking Bad: O Jogo. Assuma o papel de um traficante de drogas e construa seu império enquanto toma decisões difíceis que moldam o curso da história. Enfrente rivais, interaja com personagens icônicos da série e explore locais memoráveis enquanto você luta pelo controle do território. Prepare-se para uma experiência emocionante e cheia de adrenalina neste jogo baseado na série de TV aclamada pela crítica.',
               'apks/Breaking Bad.apk',
-              'https://bresodev.github.io/Breaking-Bad-Game/'
+              'https://bresodev.github.io/Breaking-Bad-Game/',
+              'Jogos '
             ],
             [
               'Forum CDS',
@@ -374,7 +413,8 @@
               'Fórum destinado a alunos de Ciências da Computação da escola Cruzeiro do Sul',
               'Participe do Fórum CDSEAD, uma plataforma dedicada aos alunos de Ciências da Computação da escola Cruzeiro do Sul. Aqui, os estudantes podem discutir sobre diversos temas relacionados à área, compartilhar conhecimento, fazer perguntas, e interagir uns com os outros. Desde dúvidas sobre programação até debates sobre tendências tecnológicas, o Fórum CDSEAD é o lugar ideal para trocar ideias e aprender junto com a comunidade acadêmica. Junte-se a nós e aproveite ao máximo sua jornada na área de Ciências da Computação!',
               'apks/Forum CDS.apk',
-              'https://bresodev.github.io/redirecionador_apk/ForumCDS.html'
+              'https://bresodev.github.io/redirecionador_apk/ForumCDS.html',
+              'Entretenimento'
             ],
             [
               'Invalid File Creator',
@@ -382,7 +422,8 @@
               'Cria arquivos inválidos e corrompidos de qualquer tamanho ou extensão, para ser usado como desculpa quando não fez um trabalho e precisa entregar',
               'O Invalid File Creator é uma ferramenta útil para criar arquivos inválidos e corrompidos de qualquer tamanho ou extensão. Esta aplicação é ideal para situações em que você precisa entregar um trabalho, mas não o fez, e precisa de uma desculpa plausível. Basta selecionar o tamanho e a extensão do arquivo que você precisa, e o Invalid File Creator criará um arquivo corrompido que não pode ser aberto ou lido corretamente. Com isso, você terá uma desculpa convincente para atrasos ou trabalhos não entregues. Nunca mais se preocupe com prazos apertados com o Invalid File Creator.',
               'apks/Invalid File Creator.apk',
-              'https://bresodev.github.io/Invalid-File-Creator/'
+              'https://bresodev.github.io/Invalid-File-Creator/',
+              'Ferramentas'
             ],
             [
               'Mini Font Converter',
@@ -390,7 +431,8 @@
               'Converte frases em caracteres menores que a fonte normal',
               'Transforme suas frases em caracteres menores que a fonte normal com o Mini Font Creator. Este aplicativo é ideal para criar texto em miniatura, perfeito para usar em redes sociais, mensagens de texto e muito mais. Basta digitar sua frase e o Mini Font Creator irá converter para uma versão menor, economizando espaço e adicionando um toque único ao seu texto. Experimente agora e dê um estilo único às suas mensagens com o Mini Font Creator.',
               'apks/Mini Font Converter.apk',
-              'https://bresodev.github.io/MiniFont-Creator/'
+              'https://bresodev.github.io/MiniFont-Creator/',
+              'Entretenimento Ferramentas'
             ], 
             
             [
@@ -399,7 +441,8 @@
               'Sistema que você pode criar seu email personalizado com qualquer nome e domínio',
               'Crie seu próprio endereço de e-mail personalizado com o My Fake MailBox. Escolha um nome único e um domínio customizado, como seunome@seudomínio.com. Envie e-mails para outros usuários do aplicativo e compartilhe mensagens e arquivos. Lembre-se, não é possível enviar e-mails reais, apenas dentro da rede do aplicativo. Experimente agora e comece a se comunicar de forma divertida e personalizada!',
               'apks/FakeMailBox.apk',
-              'https://bresodev.github.io/redirecionador_apk/EmailBox.html'
+              'https://bresodev.github.io/redirecionador_apk/EmailBox.html',
+              ' Produtividade'
             ],
             [
               'WhiteJack',
@@ -407,7 +450,8 @@
               'Joguinho de cassino caça níquel, onde você pode jogar sem usar dinheiro real',
               'Divirta-se com o WhiteJack, um jogo de cassino caça-níquel onde você pode jogar sem usar dinheiro real. Gire os rolos e teste sua sorte para conseguir combinações vencedoras. Experimente a emoção do cassino sem gastar dinheiro de verdade!',
               'apks/WhiteJack.apk',
-              'https://bresodev.github.io/Roleta-Cassino/'
+              'https://bresodev.github.io/Roleta-Cassino/',
+              'Jogos'
             ],
             [
               'Confessionario',
@@ -415,7 +459,8 @@
               'Site para fazer confissões de modo anonimo',
               'Liberte-se de suas preocupações e compartilhe suas confissões de forma anônima com o Confessionário. Este site seguro e acolhedor oferece um espaço onde você pode expressar seus pensamentos, sentimentos e segredos sem revelar sua identidade. Seja para desabafar sobre problemas pessoais, compartilhar pensamentos íntimos ou simplesmente buscar conforto na comunidade, o Confessionário está aqui para oferecer apoio e compreensão. Com total anonimato e um ambiente livre de julgamentos, você pode encontrar alívio ao compartilhar suas confissões com outros usuários que podem se identificar com suas experiências. Experimente o Confessionário hoje e sinta o peso sendo aliviado de seus ombros enquanto você compartilha suas confissões de maneira segura e discreta.',
               'apks/Confessionario.apk',
-              'https://bresodev.github.io/redirecionador_apk/Confessionario.html'
+              'https://bresodev.github.io/redirecionador_apk/Confessionario.html',
+              'Entretenimento'
             ],
             [
               'BCoin',
@@ -423,7 +468,8 @@
               'Aplicativo intuitivo para facilitar a compra e venda de BCoins',
               'BCoin é uma nova criptomoeda que vem com um aplicativo intuitivo para facilitar a compra e venda de BCoins. Com transações rápidas e seguras, o aplicativo oferece uma carteira digital protegida para armazenar suas BCoins, além de uma interface amigável que simplifica todas as suas operações. Aproveite a segurança e a conveniência da BCoin para explorar o mundo das criptomoedas.',
               'apks/bcoin.apk',//apks/.apk
-              'vazio'
+              'vazio',
+              'Entretenimento'
             ],
             [
               'Medical List',
@@ -431,7 +477,8 @@
               'Aplicativo  para cadastrar sintomas e os remédios correspondentes',
               'O Medical List é um aplicativo essencial para cadastrar sintomas e os remédios correspondentes, ideal para quem não tem conhecimento médico ou tende a esquecer quais medicamentos administrar em emergências. Simples e intuitivo, o Medical List ajuda você a registrar sintomas e associá-los aos tratamentos adequados, garantindo que você tenha as informações necessárias sempre à mão em momentos críticos. Além disso, voce pode compartilhar sua lista com amigos e carregar listas de outras pessoas também. ',
               'apks/medicallist.apk',//apks/.apk
-              'https://bresodev.github.io/MedicalList/'
+              'https://bresodev.github.io/MedicalList/',
+              ' Produtividade'
             ],
             [
               'Market List',
@@ -439,23 +486,17 @@
               'Aplicativo ideal para criar e gerenciar listas de compras',
               'Organize suas compras com o MarketList, o aplicativo ideal para criar e gerenciar listas de compras. Adicione e exclua itens facilmente, salve listas para reutilização futura e mantenha suas compras sempre organizadas. Com uma interface simples e intuitiva, o MarketList torna o planejamento de suas compras mais eficiente e prático. Além disso, voce pode compartilhar sua lista com amigos e carregar listas de outras pessoas também. ',
               'apks/marketlist.apk',//apks/.apk
-              'https://bresodev.github.io/MarketList/'
+              'https://bresodev.github.io/MarketList/',
+              ' Produtividade'
             ],
-            //[
-            //  'CrushAI',
-            //  'img/crushai.jpg',
-            //  'Chatbot que simula um namorado ou uma namorada virtual',
-            //  'CrushAI é um chatbot que simula um namorado ou uma namorada, oferecendo conversas realistas e envolventes. Ideal para quem busca companhia virtual, o CrushAI proporciona interações afetuosas e personalizadas, criando uma experiência de relacionamento única e acolhedora. Experimente o CrushAI e desfrute da companhia de um parceiro(a) virtual sempre disponível para conversar.',
-            //  'apks/CrushAI.apk',//apks/.apk
-            //  'https://bresodev.github.io/redirecionador_apk/CrushIA.html'
-            //],
             [
               'KeyGuard',
               'img/keyguard.jpg',
               'Proteja suas senhas com segurança e conveniência usando o KeyGuard',
               'Proteja suas senhas com segurança e conveniência usando o KeyGuard. Este aplicativo permite armazenar todas as suas senhas em um único lugar, garantindo fácil acesso e máxima proteção.<br><br><b>Armazenamento seguro:</b> Guarde suas senhas com criptografia avançada.<br><b>Acesso fácil:</b><br> Tenha suas senhas sempre à mão com uma interface intuitiva.<br><br><b>Organização:</b><br> Categorize suas senhas para encontrar facilmente o que precisa.<br><br><b>Privacidade:</b> <br>Garanta a segurança de suas informações sensíveis.<br><br>Mantenha suas senhas seguras e organizadas com o KeyGuard.',
               'apks/KeyGuard.apk',//apks/.apk
-              'vazio'
+              'vazio',
+              ''
             ],
             [
               'Pow',//nome do projeto
@@ -463,7 +504,8 @@
               'Cuide do seu próprio bichinho virtual com o Pow!',//mini descrição
               'Cuide do seu próprio bichinho virtual com o Pow! Alimente, brinque e cuide dele para mantê-lo feliz e saudável. Com uma interface divertida e interativa, Pow é perfeito para quem adora jogos de cuidado e quer um companheiro virtual sempre por perto.',//descrição completa
               'apks/Pow.apk',//apks/.apk
-              'https://bresodev.github.io/Pow/'//site
+              'https://bresodev.github.io/Pow/',
+              'Jogos'
             ],
             [
               'MusicaIA',//nome do projeto
@@ -471,7 +513,8 @@
               'Crie letras e artes musicais com a ajuda da inteligência artificial.',//mini descrição
               'O musicaIA é um aplicativo inovador que utiliza inteligência artificial para transformar ideias em composições musicais. Basta inserir um tema, escolher o gênero musical e citar inspirações, e o app gera automaticamente uma letra de música coerente, criativa e adaptada ao estilo escolhido. Além disso, o musicaIA cria uma arte visual personalizada para acompanhar a música, ideal para capas de álbuns, posts em redes sociais ou divulgação digital. Feito para músicos, compositores iniciantes e criadores de conteúdo, o app busca eliminar bloqueios criativos e acelerar o processo de produção. Com uma interface intuitiva e recursos avançados, o musicaIA combina criatividade humana com o poder da IA para trazer mais arte ao mundo.',//descrição completa
               'apks/musicaIA 1.0.apk',//apks/.apk
-              'https://bresodev.github.io/musicAI'//site
+              'https://bresodev.github.io/musicAI',
+              'Entretenimento'
             ],
             [
               'AprendIA',//nome do projeto
@@ -479,7 +522,8 @@
               'Teste seus conhecimentos com perguntas geradas por IA que se adaptam ao seu nível.',//mini descrição
               'O aprendIA é uma plataforma inteligente de aprendizado que transforma qualquer área de conhecimento em um desafio interativo. Basta o usuário escolher a área e o tema desejado, e a inteligência artificial gera perguntas personalizadas no formato de flipcards — fáceis de usar e ideais para estudar de forma dinâmica. A grande inovação está no sistema adaptativo: conforme o usuário acerta ou erra, o app ajusta automaticamente o nível de dificuldade, promovendo uma curva de aprendizado eficiente e motivadora.Ideal para estudantes, concurseiros, autodidatas ou qualquer pessoa que deseje aprender de forma prática e divertida. O aprendIA transforma o estudo em um jogo com inteligência.',//descrição completa
               'apks/aprendIA 1.0.apk',//apks/.apk
-              'https://bresodev.github.io/aprendIA/'//site
+              'https://bresodev.github.io/aprendIA/',
+              'Entretenimento Produtividade'
             ],
             [
               'JS String Obfs',//nome do projeto
@@ -487,7 +531,8 @@
               'Obfusque e proteja strings JavaScript com facilidade e rapidez.',//mini descrição
               'O JS String Obfs é um app desenvolvido para desenvolvedores que desejam proteger ou ocultar strings em seus projetos JavaScript. Ele aplica técnicas de ofuscação e criptografia para transformar strings comuns em versões ilegíveis ao olho humano, dificultando engenharia reversa e aumentando a segurança do código.Ideal para esconder URLs, chaves, mensagens sensíveis ou lógicas de negócios, o app oferece uma interface simples para colar, transformar e copiar o conteúdo ofuscado instantaneamente.Suporte a diversos métodos de codificação (Base64, XOR, Unicode, etc.), com opções de compressão e decodificação automática.Com o JS String Obfs, proteger strings no front-end se torna rápido, prático e eficaz.',//descrição completa
               'vazio',//apks/.apk
-              'https://bresodev.github.io/JS-String-Obfuscator/'//site
+              'https://bresodev.github.io/JS-String-Obfuscator/',
+              'Ferramentas'
             ],
             [
               'Teleprompt TV',//nome do projeto
@@ -495,254 +540,8 @@
               'Transforme seus textos em um teleprompter automático para leitura fluida e sem distrações.',//mini descrição
               'O Teleprompt TV é uma aplicação leve e prática desenvolvida para facilitar a leitura de roteiros em tempo real. Com ele, você pode digitar ou colar qualquer texto e exibi-lo em formato de teleprompter, com rolagem automática na tela. Ideal para criadores de conteúdo, apresentadores, professores e profissionais que precisam manter o foco durante gravações, lives ou apresentações. A interface simples permite começar rapidamente, sem complicações ou configurações complexas. Você pode ajustar o ritmo da leitura de acordo com sua necessidade, garantindo mais naturalidade na fala. Evite pausas, esquecimentos e perda de linha durante suas apresentações. Seja para vídeos, palestras ou estudos, o Teleprompt TV oferece uma solução eficiente e intuitiva. Tudo isso em uma ferramenta leve, rápida e acessível.',//descrição completa
               'apks/Teleprompt.apk',//apks/.apk
-              'https://bresodev.github.io/Teleprompt-TV'//site
+              'https://bresodev.github.io/Teleprompt-TV',
+              'Entretenimento Ferramentas Produtividade'
             ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
-            [
-              '',//nome do projeto
-              '',//foto
-              '',//mini descrição
-              '',//descrição completa
-              'vazio',//apks/.apk
-              'vazio'//site
-            ],
+           
           ];
