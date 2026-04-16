@@ -419,7 +419,7 @@
             [
               'Invalid File Creator',
               'img/Invalid File Creator.png',
-              'Cria arquivos inválidos e corrompidos de qualquer tamanho ou extensão, para ser usado como desculpa quando não fez um trabalho e precisa entregar',
+              'Cria arquivos inválidos para ser usado quando não fez um trabalho e precisa entregar',
               'O Invalid File Creator é uma ferramenta útil para criar arquivos inválidos e corrompidos de qualquer tamanho ou extensão. Esta aplicação é ideal para situações em que você precisa entregar um trabalho, mas não o fez, e precisa de uma desculpa plausível. Basta selecionar o tamanho e a extensão do arquivo que você precisa, e o Invalid File Creator criará um arquivo corrompido que não pode ser aberto ou lido corretamente. Com isso, você terá uma desculpa convincente para atrasos ou trabalhos não entregues. Nunca mais se preocupe com prazos apertados com o Invalid File Creator.',
               'apks/Invalid File Creator.apk',
               'https://bresodev.github.io/Invalid-File-Creator/',
@@ -493,7 +493,7 @@
               'KeyGuard',
               'img/keyguard.jpg',
               'Proteja suas senhas com segurança e conveniência usando o KeyGuard',
-              'Proteja suas senhas com segurança e conveniência usando o KeyGuard. Este aplicativo permite armazenar todas as suas senhas em um único lugar, garantindo fácil acesso e máxima proteção.<br><br><b>Armazenamento seguro:</b> Guarde suas senhas com criptografia avançada.<br><b>Acesso fácil:</b><br> Tenha suas senhas sempre à mão com uma interface intuitiva.<br><br><b>Organização:</b><br> Categorize suas senhas para encontrar facilmente o que precisa.<br><br><b>Privacidade:</b> <br>Garanta a segurança de suas informações sensíveis.<br><br>Mantenha suas senhas seguras e organizadas com o KeyGuard.',
+              'Proteja suas senhas com segurança e conveniência usando o KeyGuard. Este aplicativo permite armazenar todas as suas senhas em um único lugar, garantindo fácil acesso e máxima proteção.<b>Armazenamento seguro:</b> Guarde suas senhas com criptografia avançada.<b>Acesso fácil:</b> Tenha suas senhas sempre à mão com uma interface intuitiva.<b>Organização:</b> Categorize suas senhas para encontrar facilmente o que precisa.<b>Privacidade:</b> Garanta a segurança de suas informações sensíveis.Mantenha suas senhas seguras e organizadas com o KeyGuard.',
               'apks/KeyGuard.apk',//apks/.apk
               'vazio',
               ''

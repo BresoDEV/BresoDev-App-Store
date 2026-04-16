@@ -61,7 +61,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section" >
+            <section class="section">
                 <div class="container">
                     <div class="section-header">
                         <h2 id="Apps em Destaque">Apps em Destaque</h2>
@@ -255,6 +255,13 @@
           var randomico = Math.floor(Math.random() * ct - 4)
 
           for (let index = 0; index < 4; index++) {
+
+                if (apks[randomico+index][0].length > 15) {
+                        apks[randomico+index][0] = apks[randomico+index][0].slice(0, 15) + "...";
+                }
+                if (apks[randomico+index][2].length > 25) {
+                        apks[randomico+index][2] = apks[randomico+index][2].slice(0, 25) + "...";
+                }
             
             s2 += `
             <article class="card">
@@ -265,10 +272,7 @@
                                 <div class="app-info">
                                     <h3>${apks[randomico+index][0]}</h3>
                                     <p>${apks[randomico+index][2]}</p>
-                                    <div class="stars">
-                                        ★★★
-                                        <span style="color:#68789d">★</span>
-                                    </div>
+                                   
                                 </div>
                             </div>
                             <button
