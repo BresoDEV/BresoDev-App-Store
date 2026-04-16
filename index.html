@@ -61,7 +61,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section">
+            <section class="section" >
                 <div class="container">
                     <div class="section-header">
                         <h2 id="Apps em Destaque">Apps em Destaque</h2>
@@ -201,6 +201,10 @@
                 //    console.log(apk[2])
                 //}
 
+                if (apk[3].length > 200) {
+                    apk[3] = apk[3].slice(0, 200) + "...";
+                    }
+
                 s += `
                 <article class="download-row">
                                 <div class="rank">${ct}.</div>
@@ -297,7 +301,7 @@
 
 
                 //remove os itens que estao na tela e deixa so os resultados da busca
-                document.getElementById('categorias').innerHTML = ''
+                //document.getElementById('categorias').innerHTML = ''
                 document.getElementById('recomendados').innerHTML = ''
                 document.getElementById('Apps em Destaque').innerHTML = ''
                 document.getElementById('Ver Todos').innerHTML = ''
@@ -316,9 +320,11 @@
                   if(apk[1] !== '' && apk[0].toLowerCase().includes(busca.toLowerCase())){
 
 
-                   // if (apk[2].length > 200) {
-                   //     apk[2] = apk[2].slice(0, 200) + "...";
-                   // }
+                    console.log(apk[3].length)
+                  
+                    if (apk[3].length > 250) {
+                    apk[3] = apk[3].slice(0, 250) + "...";
+                    }
 
                       s2 += `
                       <article class="download-row">
