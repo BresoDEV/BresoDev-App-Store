@@ -307,15 +307,7 @@
               'https://bresodev.github.io/JS-Obfuscator/',
               'Ferramentas'
             ],
-            [
-              'Warez API',
-              'img/warez.jpg',
-              'Aplicativo de filmes via link do IMDB',
-              'Acesse uma vasta biblioteca de filmes diretamente do IMDb com o Warez API. Este aplicativo inovador oferece acesso rápido e conveniente a uma ampla variedade de filmes, utilizando links do IMDb como fonte de referência. Com o Warez API, você pode procurar por filmes por título, gênero, ano de lançamento e muito mais, tudo com base nos dados do IMDb. Experimente agora e descubra uma nova maneira de explorar e desfrutar de filmes com o Warez API.',
-              'vazio',
-              'https://bresodev.github.io/WarezAPI/',
-              'Entretenimento'
-            ],
+             
             [
               'Text Encriptor',
               'img/Text Encriptor.jpg',
